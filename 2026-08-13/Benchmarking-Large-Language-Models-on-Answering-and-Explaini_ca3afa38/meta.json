@@ -4,5 +4,32 @@
  "title": "Benchmarking-Large-Language-Models-on-Answering-and-Explaini",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/129326fe-d062-4840-93f8-e9f387ee260b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/129326fe-d062-4840-93f8-e9f387ee260b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:59:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical question answering",
+    "large language models",
+    "clinical reasoning",
+    "explainable AI",
+    "benchmark dataset",
+    "chain-of-thought prompting",
+    "model explanation evaluation"
+   ],
+   "field": "医疗自然语言处理",
+   "innovations": [
+    "构建含专家解释的两个挑战性医疗QA数据集（JAMA Clinical Challenge和Medbullets）",
+    "系统评估LLM在复杂临床问答和解释生成上的能力并揭示自动指标与人工判断的低相关性",
+    "分析CoT提示在医疗QA中新引入的错误类型（None/Made-up/Multiple）"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "JAMA Clinical Challenge",
+    "Medbullets"
+   ]
+  }
+ }
 }

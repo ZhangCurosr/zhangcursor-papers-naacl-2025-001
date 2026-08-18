@@ -4,5 +4,32 @@
  "title": "An-Efficient-Gloss-Free-Sign-Language-Translation-Using-Spat",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f33ca8f8-e817-482b-8969-782d0464e3f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f33ca8f8-e817-482b-8969-782d0464e3f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:58:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sign language translation",
+    "gloss-free",
+    "large language models",
+    "spatial configuration",
+    "motion dynamics",
+    "visual-text alignment",
+    "contrastive learning"
+   ],
+   "field": "手语翻译与多模态理解",
+   "innovations": [
+    "提出无需视觉编码器领域微调的SpaMo框架，仅用冻结的CLIP+VideoMAE提取空间与运动特征即达SOTA",
+    "设计VT-Align对比对齐热身策略，轻量桥接手语视频与LLM嵌入空间的模态鸿沟",
+    "系统性揭示LLM在嵌入空间中对手语视频的语义解读机制（visual token分析）"
+   ],
+   "benchmarks": [
+    "PHOENIX14T",
+    "CSL-Daily",
+    "How2Sign"
+   ]
+  }
+ }
 }

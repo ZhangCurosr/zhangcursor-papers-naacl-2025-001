@@ -4,5 +4,32 @@
  "title": "CORRECT-Context-and-Reference-Augmented-Reasoning-and-Prompt",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f5aa6d0-57f5-4e94-afda-9517e6efaf7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f5aa6d0-57f5-4e94-afda-9517e6efaf7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:01:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fact-checking",
+    "three-layer evidence graph",
+    "prompt tuning",
+    "context-augmented reasoning",
+    "reference-aware verification",
+    "few-shot fact verification"
+   ],
+   "field": "事实验证与 misinformation detection",
+   "innovations": [
+    "首次同时建模上下文和参考文献的三层证据图推理框架",
+    "证据条件化连续提示编码用于事实核查",
+    "基于图语义的提示嵌入初始化策略"
+   ],
+   "benchmarks": [
+    "FEVEROUS-S",
+    "BearFact",
+    "Check-COVID",
+    "SciFact"
+   ]
+  }
+ }
 }

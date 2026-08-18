@@ -4,5 +4,28 @@
  "title": "ALERT-An-LLM-powered-Benchmark-for-Automatic-Evaluation-of-R",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75636eff-02d0-42ea-a4d2-1105723eba67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75636eff-02d0-42ea-a4d2-1105723eba67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推荐解释评估",
+    "LLM-as-Judge",
+    "自动化评估",
+    "推荐系统",
+    "大数据集评测"
+   ],
+   "field": "推荐系统可解释性评估",
+   "innovations": [
+    "提出覆盖15个品类的推荐解释benchmark ALERT，采用购买历史隐式建模用户偏好",
+    "设计ALERT-Gen和ALERT-Disc两种LLM驱动的无需reference的自动评估器，结合divide-and-aggregate策略达成70%专家一致率",
+    "通过数据/提示中断的负样本检测实验系统验证评估器可靠性，效率较人工提升99.7%以上"
+   ],
+   "benchmarks": [
+    "ALERT"
+   ]
+  }
+ }
 }

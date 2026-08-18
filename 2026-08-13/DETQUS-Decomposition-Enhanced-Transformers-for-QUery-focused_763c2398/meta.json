@@ -4,5 +4,29 @@
  "title": "DETQUS-Decomposition-Enhanced-Transformers-for-QUery-focused",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-13 14:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/55128d6e-95ba-4f1c-ad93-c553961b9140.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/55128d6e-95ba-4f1c-ad93-c553961b9140.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:02:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "查询聚焦表格摘要",
+    "表格分解",
+    "编码器-解码器模型",
+    "Omnitab",
+    "QTSUMM",
+    "大语言模型"
+   ],
+   "field": "表格到文本生成",
+   "innovations": [
+    "LLM驱动的自适应表格分解方法：根据查询智能压缩表格列数",
+    "保守-激进双轨分解策略以平衡信息保留与噪声过滤",
+    "在QTSUMM基准上刷新SOTA（ROUGE-L 0.4437）"
+   ],
+   "benchmarks": [
+    "QTSUMM"
+   ]
+  }
+ }
 }

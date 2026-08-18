@@ -4,5 +4,33 @@
  "title": "Decoding-Hate-Exploring-Language-Models-Reactions-to-Hate-Sp",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 07:13:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/561bdffd-cbc1-4b60-9566-b022dee90bd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/561bdffd-cbc1-4b60-9566-b022dee90bd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:03:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hate speech",
+    "large language models",
+    "counter-speech",
+    "LLM safety",
+    "implicit hate",
+    "prompting",
+    "fine-tuning",
+    "MetaHate BERT"
+   ],
+   "field": "LLM安全与有害内容生成",
+   "innovations": [
+    "首个7模型系统评测仇恨言论反应及六类响应分类体系",
+    "对比验证提示词干预与QLoRA微调的缓解效果，stop prompt将仇恨生成降至<1%",
+    "构建CONAN POLITE数据集揭示礼貌仇恨更难检测且模型回应率更低"
+   ],
+   "benchmarks": [
+    "CONAN",
+    "DGHS",
+    "MetaHate BERT F1=0.88"
+   ]
+  }
+ }
 }

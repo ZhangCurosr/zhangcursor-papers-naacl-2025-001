@@ -4,5 +4,33 @@
  "title": "Babysit-A-Language-Model-From-Scratch-Interactive-Language-L",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 07:13:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b45b981-4db2-4ad2-b4fb-8ab6fd74d1c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b45b981-4db2-4ad2-b4fb-8ab6fd74d1c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:58:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive language learning",
+    "trial-and-demonstration",
+    "corrective feedback",
+    "language acquisition",
+    "neural age of acquisition",
+    "PPO",
+    "reward model"
+   ],
+   "field": "交互式语言建模",
+   "innovations": [
+    "提出TnD框架实现从零开始的试错-示范交互式学习",
+    "设计基于训练轨迹的年龄条件化奖励函数",
+    "发现教师词汇选择显著影响学生特定词汇习得效率"
+   ],
+   "benchmarks": [
+    "BabyLM Challenge Round 1",
+    "BookCorpus",
+    "CMN vocabulary",
+    "CDI vocabulary"
+   ]
+  }
+ }
 }

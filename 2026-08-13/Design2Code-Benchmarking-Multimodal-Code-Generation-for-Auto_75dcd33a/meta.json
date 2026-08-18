@@ -4,5 +4,32 @@
  "title": "Design2Code-Benchmarking-Multimodal-Code-Generation-for-Auto",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/08b40527-ace9-4edd-8219-20c990b2128a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/08b40527-ace9-4edd-8219-20c990b2128a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:03:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "代码生成",
+    "前端工程自动化",
+    "视觉-代码转换",
+    "基准评测",
+    "设计稿转代码",
+    "多模态提示工程"
+   ],
+   "field": "多模态代码生成评测",
+   "innovations": [
+    "首个真实世界网页截图→HTML/CSS代码的多模态代码生成基准，包含484例多样化真实网页与80例困难样本",
+    "提出Block-Match/Text/Position/Color四维细粒度自动评估指标，并揭示其与人类偏好的对齐与偏差",
+    "系统对比直接提示、文本增强提示与自修订提示三种策略，量化不同模型在OCR、布局还原与自我纠错能力上的差异"
+   ],
+   "benchmarks": [
+    "Design2Code",
+    "Design2Code-HARD",
+    "WebSight"
+   ]
+  }
+ }
 }

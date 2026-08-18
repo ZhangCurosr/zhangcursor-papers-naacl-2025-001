@@ -4,5 +4,31 @@
  "title": "ALTER-Augmentation-for-Large-Table-Based-Reasoning",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43099abc-7c98-4c52-a1c9-0dbadbe91ee4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/43099abc-7c98-4c52-a1c9-0dbadbe91ee4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "table reasoning",
+    "large language models",
+    "query augmentation",
+    "table augmentation",
+    "text-to-SQL",
+    "large-table robustness",
+    "augment-filter-execute"
+   ],
+   "field": "表格推理与大语言模型",
+   "innovations": [
+    "提出查询增强器（step-back抽象+sub-query分解）与表格增强器（schema/semantic/literal三类预生成信息）的双增强机制",
+    "设计增广-过滤-执行（augment-filter-execute）通用流程，固定输入行数使上下文长度与表格规模解耦",
+    "系统评估大表格场景下的性能退化与抗扰动鲁棒性，揭示ALTER在>300单元格时相对基线提升15%~25%"
+   ],
+   "benchmarks": [
+    "WikiTQ",
+    "TabFact"
+   ]
+  }
+ }
 }

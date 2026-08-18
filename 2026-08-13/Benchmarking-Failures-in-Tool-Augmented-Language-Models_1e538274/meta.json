@@ -4,5 +4,30 @@
  "title": "Benchmarking-Failures-in-Tool-Augmented-Language-Models",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2f43e72-9479-4536-baec-88d6eb8e57cc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2f43e72-9479-4536-baec-88d6eb8e57cc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工具增强语言模型",
+    "TaLM",
+    "基准测试",
+    "故障感知",
+    "人类交互",
+    "工具调用",
+    "LLM"
+   ],
+   "field": "工具增强大语言模型评测",
+   "innovations": [
+    "提出FAIL-TALMS基准，系统评估TaLMs在查询不充分和工具不可用两类失败场景下的表现",
+    "引入五维评估指标（Pass Rate/Awareness/Unexpected Success/Skipped Queries/Interaction Ratio）量化故障感知能力",
+    "提出Ask-and-Help (AAH) 方法，允许TaLM实时调用人类助手获取缺失信息或替代不可用工具"
+   ],
+   "benchmarks": [
+    "FAIL-TALMS"
+   ]
+  }
+ }
 }

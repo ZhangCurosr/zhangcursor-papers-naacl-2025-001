@@ -4,5 +4,35 @@
  "title": "A-Survey-of-QUD-Models-for-Discourse-Processing",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/340faf94-c9ae-46f7-97f6-7c8f68a1923c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/340faf94-c9ae-46f7-97f6-7c8f68a1923c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:56:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Question Under Discussion",
+    "Discourse Processing",
+    "QUD-tree",
+    "Expectation-driven",
+    "Dependency-based",
+    "RST",
+    "PDTB",
+    "SDRT"
+   ],
+   "field": "话语结构与语篇解析",
+   "innovations": [
+    "首次在三类QUD模型之间建立六维结构化对比框架",
+    "系统梳理QUD与RST/PDTB/SDRT的映射研究与差异发现",
+    "整合现有QUD语料库与评估套件并提供两阶段标注路线建议"
+   ],
+   "benchmarks": [
+    "TED-Q",
+    "De Kuthy 访谈语料",
+    "Ko 新闻语料",
+    "QUDEVAL",
+    "TED-MDB"
+   ]
+  }
+ }
 }

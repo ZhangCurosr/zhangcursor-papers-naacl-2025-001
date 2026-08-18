@@ -4,5 +4,31 @@
  "title": "AFRIHATE-A-Multilingual-Collection-of-Hate-Speech-and-Abusiv",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a0b3b7c-43aa-46f1-b0f3-c9b739e7a583.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a0b3b7c-43aa-46f1-b0f3-c9b739e7a583.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仇恨言论检测",
+    "非洲语言",
+    "多语言NLP",
+    "低资源语言",
+    " Abuse detection",
+    "数据集构建"
+   ],
+   "field": "多语言仇恨言论检测",
+   "innovations": [
+    "首个覆盖15种非洲语言的三级分类仇恨言论数据集集合，含target属性标注",
+    "母语者主导的annotation流程与language lead质量控制机制",
+    "针对code-mixing/digraphia优化的LID模型（AfroXLMR+Glot500-c继续预训练）"
+   ],
+   "benchmarks": [
+    "AFRIHATE",
+    "AfriSenti-LID",
+    "Glot500-c"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Beyond-Benchmarks-Building-a-Richer-Cross-Document-Event-Cor",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a37979a-72c9-4286-a696-f3a8c4d00881.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a37979a-72c9-4286-a696-f3a8c4d00881.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:59:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cross-Document Event Coreference",
+    "Decontextualization",
+    "Dataset Construction",
+    "Event Extraction",
+    "LLM",
+    "NLP Benchmark"
+   ],
+   "field": "跨文档事件核心共指解析",
+   "innovations": [
+    "提出基于LLM去语境化的CDEC数据集构建新方法，显著提升标注效率和数据集多样性",
+    "构建RECB数据集，在事件多样性、标注密度和难度上超越现有主流基准",
+    "验证了近核心共指关系标注的价值及去语境化对模型性能的增益"
+   ],
+   "benchmarks": [
+    "RECB",
+    "ECB+",
+    "GVC"
+   ]
+  }
+ }
 }

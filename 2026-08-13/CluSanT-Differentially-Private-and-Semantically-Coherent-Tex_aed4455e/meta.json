@@ -4,5 +4,30 @@
  "title": "CluSanT-Differentially-Private-and-Semantically-Coherent-Tex",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/51f91798-3134-44ea-bbd8-b5f7dc251f18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/51f91798-3134-44ea-bbd8-b5f7dc251f18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:01:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "local differential privacy",
+    "text sanitization",
+    "metric LDP",
+    "token clustering",
+    "privacy-utility tradeoff"
+   ],
+   "field": "隐私保护自然语言处理",
+   "innovations": [
+    "提出参数化 MLDP 文本脱敏框架 CluSanT，统一 SanText 与 CusText 为极端情形",
+    "两阶段指数机制在任意合法聚类下给出可证明的 ε-MLDP 保证",
+    "以聚类嵌入参数 k 连续调节隐私与语义效用权衡"
+   ],
+   "benchmarks": [
+    "TAB benchmark",
+    "SST2 sentiment analysis"
+   ]
+  }
+ }
 }

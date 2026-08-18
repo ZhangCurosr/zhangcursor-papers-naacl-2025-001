@@ -4,5 +4,31 @@
  "title": "Detect-Disambiguate-and-Translate-On-Demand-Visual-Reasoning",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d0e29f77-d37a-42e0-a785-8f447d72bf78.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d0e29f77-d37a-42e0-a785-8f447d72bf78.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:03:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态机器翻译",
+    "视觉语言模型",
+    "歧义消解",
+    "按需推理",
+    "大型视觉语言模型",
+    "CoMMuTE"
+   ],
+   "field": "多模态机器翻译",
+   "innovations": [
+    "提出 DeDiT 推理框架实现按需视觉消歧",
+    "改进消歧准确率评估指标消除对 logits 的依赖",
+    "用大模型合成数据微调小模型实现同等推理能力"
+   ],
+   "benchmarks": [
+    "Multi30K",
+    "CoMMuTE",
+    "MLT"
+   ]
+  }
+ }
 }

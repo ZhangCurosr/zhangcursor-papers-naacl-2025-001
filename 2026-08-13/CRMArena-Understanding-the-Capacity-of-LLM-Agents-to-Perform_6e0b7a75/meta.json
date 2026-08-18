@@ -4,5 +4,29 @@
  "title": "CRMArena-Understanding-the-Capacity-of-LLM-Agents-to-Perform",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7322c3e-4e8d-445a-9e1a-088cbebfd286.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7322c3e-4e8d-445a-9e1a-088cbebfd286.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:01:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "CRM Benchmark",
+    "Function Calling",
+    "Agent Evaluation",
+    "Salesforce",
+    "Tool Use"
+   ],
+   "field": "LLM Agent 评测基准",
+   "innovations": [
+    "提出首个基于真实 Salesforce CRM 环境且经专家验证的 LLM Agent 基准 CRMArena，覆盖 9 个任务与 16 个高互联对象",
+    "设计含潜变量的数据生成流水线，双阶段去重+双层验证确保合成数据的质量与多样性",
+    "揭示强弱模型在 Function Calling 框架下的反向表现差异，强模型 ReAct 优于 FC 的发现"
+   ],
+   "benchmarks": [
+    "CRMArena"
+   ]
+  }
+ }
 }

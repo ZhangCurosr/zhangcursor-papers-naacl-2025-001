@@ -4,5 +4,29 @@
  "title": "Balancing-Forget-Quality-and-Model-Utility-A-Reverse-KL-Dive",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60a12cdd-6e8f-4efa-9f8e-3bb634169da6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60a12cdd-6e8f-4efa-9f8e-3bb634169da6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:59:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Knowledge Distillation",
+    "Reverse KL Divergence",
+    "LLM Privacy",
+    "Model Editing"
+   ],
+   "field": "大语言模型隐私与安全",
+   "innovations": [
+    "提出RKLU框架，首次将知识蒸馏引入LLM遗忘任务实现选择性分布调整",
+    "揭示反向KL散度在遗忘蒸馏中的独特优势，相比前向KL在低概率区域对齐更精准",
+    "设计logits差分构建遗忘教师模型，精确抑制目标token概率同时保留无关分布"
+   ],
+   "benchmarks": [
+    "TOFU",
+    "Harry Potter Book"
+   ]
+  }
+ }
 }

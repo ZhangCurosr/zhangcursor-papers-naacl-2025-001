@@ -4,5 +4,10 @@
  "title": "Conformalized-Answer-Set-Prediction-for-Knowledge-Graph-Embe",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/06ea158f-18fa-473c-b2f4-5db1f227896c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/06ea158f-18fa-473c-b2f4-5db1f227896c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:02:24",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "CompAct-Compressed-Activations-for-Memory-Efficient-LLM-Trai",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:10:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124956b3-f4f1-491f-b63e-888cf39077b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/124956b3-f4f1-491f-b63e-888cf39077b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:02:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "内存高效训练",
+    "低秩压缩",
+    "激活压缩",
+    "大语言模型",
+    "随机投影",
+    "LLM预训练",
+    "GPU内存优化"
+   ],
+   "field": "大模型高效训练",
+   "innovations": [
+    "首次将低秩随机投影应用于激活值压缩，直击计算图中最大内存分量",
+    "用动态生成的随机投影矩阵替代周期性SVD，消除额外计算与存储开销",
+    "预训练节省25-30%峰值内存、微调节省50%，且性能几乎无损"
+   ],
+   "benchmarks": [
+    "C4",
+    "GLUE"
+   ]
+  }
+ }
 }

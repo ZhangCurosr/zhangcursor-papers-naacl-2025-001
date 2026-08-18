@@ -4,5 +4,30 @@
  "title": "An-Interpretable-and-Crosslingual-Method-for-Evaluating-Seco",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c13d7d9f-a9ff-4caa-9ee1-5b637c85c558.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c13d7d9f-a9ff-4caa-9ee1-5b637c85c558.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:58:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "第二语言评估",
+    "对话交互能力",
+    "跨语言迁移",
+    "自动化评分",
+    "可解释AI",
+    "CNIMA数据集"
+   ],
+   "field": "二语口语自动评估",
+   "innovations": [
+    "三步级联可解释自动化流程（微观→宏观→整体），突破端到端黑盒评估局限",
+    "首次验证ESL评估框架在CSL上的跨语言迁移性，揭示语言普适与特异性交互特征",
+    "无标注数据需求的LLM少样本适配方案，支持快速迁移至新语种"
+   ],
+   "benchmarks": [
+    "CNIMA",
+    "Gao et al. (2025) ESL框架复现"
+   ]
+  }
+ }
 }

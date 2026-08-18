@@ -4,5 +4,31 @@
  "title": "ACCORD-Closing-the-Commonsense-Measurability-Gap",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d21911c-afc1-401b-ab39-1f834f3d39fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8d21911c-afc1-401b-ab39-1f834f3d39fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "commonsense reasoning",
+    "counterfactual",
+    "context faithfulness",
+    "multi-hop reasoning",
+    "LLM evaluation",
+    "benchmark generation"
+   ],
+   "field": "大语言模型推理能力评估",
+   "innovations": [
+    "首次将形式化推理技能引入常识推理以关闭可测性差距",
+    "仅手写配对模板即可自动生成任意复杂度反事实常识基准",
+    "通过 factual/anti-factual 对比解耦 LLM 的 grounding 与 reasoning 能力"
+   ],
+   "benchmarks": [
+    "ACCORD_CSQA",
+    "CommonsenseQA",
+    "ConceptNet"
+   ]
+  }
+ }
 }

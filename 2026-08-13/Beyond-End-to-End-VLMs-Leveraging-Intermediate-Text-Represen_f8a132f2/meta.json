@@ -4,5 +4,30 @@
  "title": "Beyond-End-to-End-VLMs-Leveraging-Intermediate-Text-Represen",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e6eb6f4e-bad6-41fa-a343-2e93c222158d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e6eb6f4e-bad6-41fa-a343-2e93c222158d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:59:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流程图理解",
+    "视觉语言模型",
+    "双阶段框架",
+    "文本化表示",
+    "FlowVQA",
+    "多模态推理"
+   ],
+   "field": "多模态理解与图表推理",
+   "innovations": [
+    "提出TEXTFLOW双阶段框架，将流程图理解解耦为视觉文本化与文本推理两阶段",
+    "首次系统引入GRAPHVIZ/MERMAID/PLANTUML三种文本格式用于流程图表征并对比有效性",
+    "支持将文本表示转为可执行图对象并调用工具函数增强拓扑推理能力"
+   ],
+   "benchmarks": [
+    "FlowVQA",
+    "FlowLearn"
+   ]
+  }
+ }
 }

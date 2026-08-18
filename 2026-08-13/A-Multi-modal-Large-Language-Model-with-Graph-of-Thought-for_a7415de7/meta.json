@@ -4,5 +4,34 @@
  "title": "A-Multi-modal-Large-Language-Model-with-Graph-of-Thought-for",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e221795-4be3-4c82-af1f-0006a9a7dd6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e221795-4be3-4c82-af1f-0006a9a7dd6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph-of-Thought",
+    "Multi-modal Recommendation",
+    "LLM for RecSys",
+    "Text-graph Alignment",
+    "Instruction Tuning",
+    "LightGCN"
+   ],
+   "field": "多模态推荐系统",
+   "innovations": [
+    "首次将 Graph-of-Thought 提示技术应用于多模态推荐，解决 CoT 在图结构数据上图挖掘不足的问题",
+    "提出 text-graph alignment + graph instruction tuning 两阶段方法，使 MLLM 能理解用户-物品交互图结构",
+    "预训练推荐器辅助的自适应图截断策略，在 LLM token 限制下最大化高潜力候选信息融入"
+   ],
+   "benchmarks": [
+    "Amazon Clothing",
+    "Amazon Baby",
+    "HM Fashion",
+    "Amazon Pantry",
+    "Amazon Electronics",
+    "Amazon Sports"
+   ]
+  }
+ }
 }

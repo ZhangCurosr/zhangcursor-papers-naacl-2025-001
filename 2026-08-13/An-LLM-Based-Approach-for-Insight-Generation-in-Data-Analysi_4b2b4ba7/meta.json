@@ -4,5 +4,30 @@
  "title": "An-LLM-Based-Approach-for-Insight-Generation-in-Data-Analysi",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e281620f-6858-471b-8166-13a5c9591545.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e281620f-6858-471b-8166-13a5c9591545.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:58:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM",
+    "Insight Generation",
+    "Text-to-SQL",
+    "Data Analysis",
+    "Automated Analytics",
+    "Prompt Engineering"
+   ],
+   "field": "自动生成分析洞察",
+   "innovations": [
+    "三层级问题分解架构实现从多表数据库到文本洞察的端到端生成",
+    "探索性高层生成+精确低层细化的两阶段提问策略",
+    "融合人类Elo评估与LLM自动验证的双重评估框架"
+   ],
+   "benchmarks": [
+    "BIRD Benchmark",
+    "private_sales"
+   ]
+  }
+ }
 }

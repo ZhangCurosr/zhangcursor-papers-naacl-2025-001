@@ -4,5 +4,29 @@
  "title": "A-Bayesian-Optimization-Approach-to-Machine-Translation-Rera",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/33d5ccdb-9dc2-4770-a5ab-56bffbb26124.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/33d5ccdb-9dc2-4770-a5ab-56bffbb26124.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:57:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bayesian Optimization",
+    "Machine Translation Reranking",
+    "Gaussian Process",
+    "Multi-fidelity Optimization",
+    "Quality Estimation",
+    "CometKiwi"
+   ],
+   "field": "机器翻译解码与重排序",
+   "innovations": [
+    "将MT候选列表重排序首次建模为贝叶斯优化问题，利用GP刻画候选间质量相似性",
+    "提出多保真度BayesOpt扩展，通过乘积核联合建模候选距离与代理-主评分器协方差",
+    "蒸馏代理评分器采用合成候选分布训练，显著提升与CometKiwi相关性并辅助序贯搜索"
+   ],
+   "benchmarks": [
+    "WMT23 Metrics Shared Task"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "DAWN-ICL-Strategic-Planning-of-Problem-solving-Trajectories",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6b1fe2db-5fb1-42cd-a166-9303fba78b4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6b1fe2db-5fb1-42cd-a166-9303fba78b4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:02:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot in-context learning",
+    "MCTS",
+    "demonstration selection",
+    "planning",
+    "large language models"
+   ],
+   "field": "上下文学习与规划",
+   "innovations": [
+    "首次将ZS-ICL形式化为规划问题",
+    "提出演示感知Q值函数加速MCTS搜索",
+    "设计校准增强聚合方法缓解token偏差"
+   ],
+   "benchmarks": [
+    "BBH",
+    "MMLU"
+   ]
+  }
+ }
 }
