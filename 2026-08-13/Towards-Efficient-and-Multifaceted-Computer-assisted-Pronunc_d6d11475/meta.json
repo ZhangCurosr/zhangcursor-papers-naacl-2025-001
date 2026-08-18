@@ -4,5 +4,28 @@
  "title": "Towards-Efficient-and-Multifaceted-Computer-assisted-Pronunc",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-13 14:55:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/699928d2-9295-462a-ab92-b84310afbd44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/699928d2-9295-462a-ab92-b84310afbd44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Computer-Assisted Pronunciation Training",
+    "Automatic Pronunciation Assessment",
+    "Mispronunciation Detection and Diagnosis",
+    "Selective State Space Model",
+    "Mamba",
+    "Decoupled Cross-entropy Loss"
+   ],
+   "field": "多粒度发音评估与错误检测",
+   "innovations": [
+    "提出 HMamba，首次将层次化双向选择性状态空间模型用于 APA 与 MDD 并行多粒度评估",
+    "设计 deXent 损失，按正确/错误发音频率解耦交叉熵以优化 MDD 的精确率-召回率平衡"
+   ],
+   "benchmarks": [
+    "speechocean762"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Uplifting-Lower-Income-Data-Strategies-for-Socioeconomic-Per",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-13 14:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2e6df68-6f49-42a7-82be-a2b0bbb03b09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b2e6df68-6f49-42a7-82be-a2b0bbb03b09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:39",
+  "chunks": 1
+ }
 }

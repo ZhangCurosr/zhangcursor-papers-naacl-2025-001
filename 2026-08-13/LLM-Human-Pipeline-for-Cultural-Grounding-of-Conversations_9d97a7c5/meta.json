@@ -4,5 +4,32 @@
  "title": "LLM-Human-Pipeline-for-Cultural-Grounding-of-Conversations",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 07:13:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/501a57a5-c797-4cd2-a5ea-1e8290fed6b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/501a57a5-c797-4cd2-a5ea-1e8290fed6b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cultural grounding",
+    "human-in-the-loop",
+    "social norms",
+    "conversation understanding",
+    "norm concepts",
+    "AgentEval",
+    "graph neural network"
+   ],
+   "field": "对话理解与文化计算",
+   "innovations": [
+    "提出Cultural Context Schema将对话语境分为事实与文化两成分",
+    "设计HiL框架发现Norm Concept并实现规模化人工验证",
+    "引入AgentEval多智能体验证框架提升数据质量"
+   ],
+   "benchmarks": [
+    "MPDD",
+    "CPED",
+    "LDC CCU ZH"
+   ]
+  }
+ }
 }

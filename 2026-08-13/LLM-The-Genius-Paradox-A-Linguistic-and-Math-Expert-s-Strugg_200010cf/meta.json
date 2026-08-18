@@ -4,5 +4,33 @@
  "title": "LLM-The-Genius-Paradox-A-Linguistic-and-Math-Expert-s-Strugg",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/175d4eda-dd45-43a5-84a7-413baaffa3f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/175d4eda-dd45-43a5-84a7-413baaffa3f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM失效模式",
+    "字符计数",
+    "推理策略",
+    "假设验证",
+    "能力迁移",
+    "分词"
+   ],
+   "field": "大语言模型能力评估与失效分析",
+   "innovations": [
+    "系统证伪LLM简单计数失败的三大流行假设",
+    "证明推理策略是解决简单任务的最有效方法",
+    "揭示专用模型能力断层现象"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "EMOTION",
+    "IMDB",
+    "SST-2"
+   ]
+  }
+ }
 }

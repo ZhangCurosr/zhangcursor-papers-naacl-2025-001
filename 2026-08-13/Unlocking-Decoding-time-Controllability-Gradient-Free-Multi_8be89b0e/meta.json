@@ -4,5 +4,30 @@
  "title": "Unlocking-Decoding-time-Controllability-Gradient-Free-Multi",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:54:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5bc2a3c3-4d2c-4471-b4aa-0dd9a101bdea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5bc2a3c3-4d2c-4471-b4aa-0dd9a101bdea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多目标对齐",
+    "对比解码",
+    "解码时控制",
+    "无梯度对齐",
+    "帕累托前沿",
+    "LLM对齐"
+   ],
+   "field": "大语言模型对齐与可控生成",
+   "innovations": [
+    "提出MCA框架，在解码时通过专家/对抗提示对比实现无梯度多目标对齐",
+    "首次将多组专家与对抗提示引入对比解码支持多目标加权控制",
+    "迭代响应增强+GPT-4指令提取自动构建对齐提示，无需人工设计"
+   ],
+   "benchmarks": [
+    "HH-RLHF",
+    "SafeRLHF"
+   ]
+  }
+ }
 }

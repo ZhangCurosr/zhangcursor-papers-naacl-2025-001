@@ -4,5 +4,30 @@
  "title": "Sketch2Code-Evaluating-Vision-Language-Models-for-Interactiv",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cf5bea1-f9ea-48ae-abed-bbfd49aedbf2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cf5bea1-f9ea-48ae-abed-bbfd49aedbf2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Sketch-to-Code",
+    "Interactive UI Generation",
+    "Multi-turn Evaluation",
+    "Web Design Automation"
+   ],
+   "field": "多模态人机交互与代码生成",
+   "innovations": [
+    "首个 sketch-to-code 多轮交互评估基准",
+    "提出 IoU-based 布局相似度度量指标",
+    "发现用户偏好与模型能力的关键差距"
+   ],
+   "benchmarks": [
+    "Sketch2Code",
+    "Visual Similarity",
+    "Layout Similarity (IoU-based)"
+   ]
+  }
+ }
 }

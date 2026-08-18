@@ -4,5 +4,29 @@
  "title": "UFO-A-UI-Focused-Agent-for-Windows-OS-Interaction",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b80d1912-177a-4389-8b89-2507cd904635.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b80d1912-177a-4389-8b89-2507cd904635.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GUI Agent",
+    "Windows OS",
+    "UI Automation",
+    "Visual Language Model",
+    "Multi-application Task",
+    "Control Detection"
+   ],
+   "field": "桌面操作系统智能体",
+   "innovations": [
+    "首个面向Windows OS专用的UI聚焦Agent框架",
+    "分层双Agent分解-征服架构实现跨应用任务协同",
+    "基于Windows UIA的控制自动化替代视觉检测方案"
+   ],
+   "benchmarks": [
+    "WindowsBench"
+   ]
+  }
+ }
 }

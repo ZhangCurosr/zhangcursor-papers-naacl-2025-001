@@ -4,5 +4,30 @@
  "title": "Temporal-Aware-Soft-Prompt-Tuning-for-Automatic-Text-Dating",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/247c68cc-d22e-4118-ba9b-aff2df6f35ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/247c68cc-d22e-4118-ba9b-aff2df6f35ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:57:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动文本年代鉴定",
+    "时间感知表示",
+    "软提示微调",
+    "语义演变",
+    "参数高效微调",
+    "历时语言建模"
+   ],
+   "field": "历史文本分析与时间感知NLP",
+   "innovations": [
+    "提出ATD-Bert解耦语义变异、不变性与时间上下文特征的时间感知文本表示",
+    "将时间感知表示与三种PEFT软提示架构结合实现高效ATD",
+    "设计基于时间距离指数惩罚的年代分类损失函数"
+   ],
+   "benchmarks": [
+    "Twenty-Four Histories",
+    "Royal Society Corpus"
+   ]
+  }
+ }
 }

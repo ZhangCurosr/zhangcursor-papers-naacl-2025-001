@@ -4,5 +4,35 @@
  "title": "TOW-Thoughts-of-Words-Improve-Reasoning-in-Large-Language-Mo",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d1cd185-9407-4222-8c71-7d4aafad40cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d1cd185-9407-4222-8c71-7d4aafad40cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:57:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "next-word prediction",
+    "data augmentation",
+    "reasoning",
+    "hallucination mitigation",
+    "synthetic data distillation",
+    "chain-of-thought",
+    "language model pre-training"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "将 next-word prediction 重新定义为推理任务，注入词级细粒度 thought",
+    "提出 EM/soft/unpredictable/trivial 四级可预测性分类与差异化去噪流程",
+    "仅用 70K 蒸馏数据即可平均提升推理性能 7%-9% 并抑制幻觉"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "CSQA",
+    "StrategyQA",
+    "ARC-Challenge",
+    "TruthfulQA",
+    "HaluEval"
+   ]
+  }
+ }
 }

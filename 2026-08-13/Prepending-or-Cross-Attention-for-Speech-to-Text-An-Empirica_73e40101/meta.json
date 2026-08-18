@@ -4,5 +4,31 @@
  "title": "Prepending-or-Cross-Attention-for-Speech-to-Text-An-Empirica",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49dca520-c393-4d64-a5b1-0000b30058c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49dca520-c393-4d64-a5b1-0000b30058c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Speech-to-Text",
+    "Dense Feature Prepending",
+    "Cross-Attention",
+    "Decoder-only",
+    "CTC Compression",
+    "SeqKD",
+    "Multilingual Speech Translation"
+   ],
+   "field": "端到端语音翻译",
+   "innovations": [
+    "首次系统从头训练比较DFP与cross-attention在S2T任务上的性能",
+    "揭示DFP架构对因果掩码的敏感性差异",
+    "实证发现CTC压缩对decoder-prepend更友好"
+   ],
+   "benchmarks": [
+    "MuST-C v1.0",
+    "CoVoST2"
+   ]
+  }
+ }
 }

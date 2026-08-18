@@ -4,5 +4,34 @@
  "title": "The-Impact-of-Visual-Information-in-Chinese-Characters-Evalu",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:54:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efd4f8cc-9e41-41b3-93bc-146035fc1e80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efd4f8cc-9e41-41b3-93bc-146035fc1e80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chinese character visual information",
+    "radical recognition",
+    "large language models",
+    "vision-language models",
+    "sub-character features",
+    "radical prompting",
+    "Chinese NLP"
+   ],
+   "field": "多语言自然语言处理 / 汉字形态学分析",
+   "innovations": [
+    "构建首个系统评估LLMs/VLMs识别与利用汉字视觉信息（部首、笔画、结构）的基准测试",
+    "发现像素级编码器PIXEL微调后能出色捕捉汉字结构信息，显著优于其他提供图像输入的模型",
+    "验证部首提示在词性标注任务上带来稳定且显著的性能提升"
+   ],
+   "benchmarks": [
+    "Chinese Character Dataset (CCD)",
+    "GSD",
+    "PUD",
+    "People's Daily NER",
+    "Weibo NER"
+   ]
+  }
+ }
 }

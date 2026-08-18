@@ -4,5 +4,10 @@
  "title": "LLM-Based-Explicit-Models-of-Opponents-for-Multi-Agent-Games",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2166c657-61d9-4396-b04e-0d217b041fcc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2166c657-61d9-4396-b04e-0d217b041fcc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:54:56",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Specializing-Large-Language-Models-to-Simulate-Survey-Respon",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:56:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f646fd5a-b476-40ca-8f07-0d7432c5d358.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f646fd5a-b476-40ca-8f07-0d7432c5d358.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM simulation",
+    "survey response distribution",
+    "cultural alignment",
+    "first-token probability",
+    "KL divergence fine-tuning",
+    "World Values Survey",
+    "human calibration"
+   ],
+   "field": "跨文化大语言模型模拟",
+   "innovations": [
+    "首次将LLM专业化用于群体层面问卷响应分布模拟，提出基于首token概率的KL散度微调方法",
+    "系统揭示即使微调后LLM预测多样性仍系统性低于人类数据，尤其在未见问题上存在偏差"
+   ],
+   "benchmarks": [
+    "World Values Survey (WVS)",
+    "Pew Global Attitudes Survey",
+    "GlobalOpinionQA"
+   ]
+  }
+ }
 }

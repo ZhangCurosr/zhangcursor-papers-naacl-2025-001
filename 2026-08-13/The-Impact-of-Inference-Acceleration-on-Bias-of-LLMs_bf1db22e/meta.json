@@ -4,5 +4,34 @@
  "title": "The-Impact-of-Inference-Acceleration-on-Bias-of-LLMs",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-13 14:55:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e91efd7-2b3a-41bd-8908-4cf9ea2b8514.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e91efd7-2b3a-41bd-8908-4cf9ea2b8514.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:57:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理加速",
+    "模型偏见",
+    "量化",
+    "剪枝",
+    "大语言模型",
+    "公平性评估"
+   ],
+   "field": "LLM可信性与公平性",
+   "innovations": [
+    "系统评估5类推理加速策略对6维度LLM偏见的影响",
+    "提出DiscrimEvalGen相对决策偏见评估数据集",
+    "揭示加速策略偏见影响的高度不可预测性和模型依赖性"
+   ],
+   "benchmarks": [
+    "CrowSPairs",
+    "GlobalOpinionQA",
+    "WorldBench",
+    "DT-Stereotyping",
+    "DiscrimEval",
+    "DiscrimEvalGen"
+   ]
+  }
+ }
 }

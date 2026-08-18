@@ -4,5 +4,28 @@
  "title": "WHoW-A-Cross-domain-Approach-for-Analysing-Conversation-Mode",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:54:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bcb70b7c-fd7e-4a22-8788-d6d3e1cf4928.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bcb70b7c-fd7e-4a22-8788-d6d3e1cf4928.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conversation moderation",
+    "multi-party dialogue",
+    "dialogue act annotation",
+    "cross-domain analysis",
+    "LLM-based annotation"
+   ],
+   "field": "多角色对话分析与计算话语分析",
+   "innovations": [
+    "提出WHoW三维度（动机/对话行为/目标发言者）跨域主持人分析框架",
+    "利用GPT-4o多任务提示实现大规模主观标注，构建5,657人工+15,494自动标注的双域数据集"
+   ],
+   "benchmarks": [
+    "Intelligence Squared Debates Corpus (DEBATE)",
+    "NPR Roundtable Panel Discussion (PANEL)"
+   ]
+  }
+ }
 }

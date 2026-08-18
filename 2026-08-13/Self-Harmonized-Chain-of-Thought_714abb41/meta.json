@@ -4,5 +4,31 @@
  "title": "Self-Harmonized-Chain-of-Thought",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d453405-5056-454c-961a-43b484ba49d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5d453405-5056-454c-961a-43b484ba49d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Prompt Engineering",
+    "Automated Demonstration",
+    "Reasoning",
+    "Large Language Models"
+   ],
+   "field": "大语言模型推理增强",
+   "innovations": [
+    "提出示范自统一机制将多样化CoT路径收敛为一致模式",
+    "设计在线迭代更新策略实现示范间相互学习"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "CommonsenseQA",
+    "StrategyQA",
+    "MultiArith",
+    "AQuA-RAT"
+   ]
+  }
+ }
 }

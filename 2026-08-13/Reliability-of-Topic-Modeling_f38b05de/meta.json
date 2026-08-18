@@ -4,5 +4,32 @@
  "title": "Reliability-of-Topic-Modeling",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d0336d30-c6e2-4e92-a175-2352c3470670.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d0336d30-c6e2-4e92-a175-2352c3470670.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主题模型可靠性",
+    "LDA",
+    "内部一致性",
+    "McDonald's Omega",
+    "心理测量学",
+    "主题对齐",
+    "Cronbach's Alpha"
+   ],
+   "field": "主题建模与方法论评估",
+   "innovations": [
+    "首次将心理测量学内部一致性可靠性框架系统引入主题模型评估，提出三种统计可靠性度量",
+    "证明 McDonald's ω 是最优主题模型可靠性度量，同时涵盖文档-主题分布和词-主题分布",
+    "揭示主题数与可靠性之间的权衡关系及固定阈值方法（Maier et al. 2018）的根本缺陷"
+   ],
+   "benchmarks": [
+    "CFPB 消费者投诉数据集",
+    "Synthetic bag-of-words 合成数据",
+    "Webtext 衍生非平凡合成数据"
+   ]
+  }
+ }
 }

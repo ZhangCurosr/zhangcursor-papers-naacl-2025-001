@@ -4,5 +4,36 @@
  "title": "Understanding-Figurative-Meaning-through-Explainable-Visual",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:55:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e2ac266-5405-4853-b85d-10e63f0cef69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e2ac266-5405-4853-b85d-10e63f0cef69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "figurative language",
+    "visual entailment",
+    "vision-language model",
+    "explainable AI",
+    "multimodal understanding",
+    "metaphor"
+   ],
+   "field": "多模态比喻语言理解",
+   "innovations": [
+    "提出V-FLUTE数据集，将比喻意义理解定义为可解释视觉蕴含任务，覆盖6027个五类比喻现象实例",
+    "构建系统化的比喻视觉蕴含评测基准，揭示VLM从字面到比喻推理的泛化困难",
+    "建立解释质量与人工判断高相关的自动评估指标（AUPRC=0.79）并识别三类典型错误"
+   ],
+   "benchmarks": [
+    "V-FLUTE",
+    "FLUTE",
+    "e-SNLI-VE",
+    "HAIVMet",
+    "IRFL",
+    "MuSE",
+    "MemeCap",
+    "NYCartoons"
+   ]
+  }
+ }
 }

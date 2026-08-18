@@ -4,5 +4,30 @@
  "title": "Moderation-Matters-Exploring-Large-Language-Models-for-Effec",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efa46f14-4e9d-4893-9224-6cf7bbb15425.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efa46f14-4e9d-4893-9224-6cf7bbb15425.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rumor detection",
+    "large language models",
+    "graph attention network",
+    "social context refinement",
+    "explainable AI",
+    "fake news detection"
+   ],
+   "field": "社交媒体谣言检测",
+   "innovations": [
+    "提出SePro框架，通过GAT与LLM协同建模语义和传播特征",
+    "设计全局语义-传播协同模块，利用注意力值重构适中规模上下文",
+    "提出Chain-of-Clue提示机制，引导LLM多线索逐步推理"
+   ],
+   "benchmarks": [
+    "Twitter",
+    "Weibo"
+   ]
+  }
+ }
 }

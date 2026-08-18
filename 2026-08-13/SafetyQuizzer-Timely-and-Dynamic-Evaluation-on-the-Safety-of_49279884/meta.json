@@ -4,5 +4,30 @@
  "title": "SafetyQuizzer-Timely-and-Dynamic-Evaluation-on-the-Safety-of",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc905d68-cb87-4520-925f-bdf44ef00cf2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dc905d68-cb87-4520-925f-bdf44ef00cf2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全评估",
+    "题目生成",
+    "越狱攻击",
+    "检索增强生成",
+    "动态评测",
+    "中文大模型"
+   ],
+   "field": "大语言模型安全评测",
+   "innovations": [
+    "通过微调LLM+越狱模板生成隐性攻击性题目以降低拒答率",
+    "利用RAG融合时事事件实现评测题目的时效性与动态更新"
+   ],
+   "benchmarks": [
+    "SafetyPrompts",
+    "JADE",
+    "CPAD"
+   ]
+  }
+ }
 }

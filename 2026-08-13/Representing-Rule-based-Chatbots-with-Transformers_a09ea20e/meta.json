@@ -4,5 +4,33 @@
  "title": "Representing-Rule-based-Chatbots-with-Transformers",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3981ea1c-6141-47c9-ba02-02e2b22f0708.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3981ea1c-6141-47c9-ba02-02e2b22f0708.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:55:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "chatbot",
+    "ELIZA",
+    "induction head",
+    "finite-state automaton",
+    "counter-factual analysis",
+    "synthetic data"
+   ],
+   "field": "Transformer 可解释性与机制分析",
+   "innovations": [
+    "理论构造 Transformer 实现 ELIZA 对话机制",
+    "实证比较 copying 机制并揭示数据分布影响",
+    "通过中间输出干预检验隐式数据结构模拟"
+   ],
+   "benchmarks": [
+    "Prefix only accuracy",
+    "Full response accuracy",
+    "Multi-turn cycling accuracy",
+    "Memory queue accuracy"
+   ]
+  }
+ }
 }

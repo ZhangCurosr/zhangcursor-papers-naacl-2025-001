@@ -4,5 +4,31 @@
  "title": "WORLDCUISINES-A-Massive-Scale-Benchmark-for-Multilingual-and",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 14:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38c48adc-3a26-46d0-a84a-f3816a8a9e37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38c48adc-3a26-46d0-a84a-f3816a8a9e37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言视觉问答",
+    "文化知识评测",
+    "多模态大模型",
+    "美食识别",
+    "对抗性评估",
+    "跨文化理解"
+   ],
+   "field": "多语言多模态理解",
+   "innovations": [
+    "首个百万级多文化美食VQA基准测试，覆盖30种语言189个国家",
+    "引入对抗性上下文任务设计检验模型对误导性文化信息的鲁棒性",
+    "分层难度负样本采样与多语言形态规范化框架"
+   ],
+   "benchmarks": [
+    "WORLDCUISINES",
+    "WC-VQA",
+    "WC-KB"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Verifiable-by-Design-Aligning-Language-Models-to-Quote-from",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-13 14:56:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77710429-b1b9-41d8-98d2-95994446f4d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77710429-b1b9-41d8-98d2-95994446f4d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM可验证性",
+    "引用生成",
+    "偏好优化",
+    "DPO",
+    "幻觉缓解",
+    "参数化知识",
+    "QUIP-Score"
+   ],
+   "field": "大语言模型可信性/可验证性",
+   "innovations": [
+    "首次提出基于自动引用度量的偏好优化方法QUOTE-TUNING实现无需人工标注的引用对齐",
+    "引入长度约束正则化偏好优化中的响应长度偏差",
+    "发现引用对齐可间接提升模型真实性"
+   ],
+   "benchmarks": [
+    "NaturalQuestions",
+    "ELI5",
+    "TruthfulQA",
+    "MMLU",
+    "GSM8K",
+    "BIG-Bench Hard",
+    "HellaSwag"
+   ]
+  }
+ }
 }

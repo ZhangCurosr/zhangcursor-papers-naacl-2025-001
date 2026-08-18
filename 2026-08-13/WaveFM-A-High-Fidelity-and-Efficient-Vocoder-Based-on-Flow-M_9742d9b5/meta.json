@@ -4,5 +4,30 @@
  "title": "WaveFM-A-High-Fidelity-and-Efficient-Vocoder-Based-on-Flow-M",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-13 14:56:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77743a28-e0bd-4965-ad8b-c636f80152a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77743a28-e0bd-4965-ad8b-c636f80152a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:00:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "Neural Vocoder",
+    "Consistency Distillation",
+    "Speech Synthesis",
+    "Audio Generation",
+    "Mel-spectrogram"
+   ],
+   "field": "语音合成声码器",
+   "innovations": [
+    "Mel条件先验分布降低传输成本",
+    "重parameterization使辅助损失融入Flow Matching",
+    "定制化一致性蒸馏实现单步推理"
+   ],
+   "benchmarks": [
+    "LibriTTS dev",
+    "MUSDB18-HQ"
+   ]
+  }
+ }
 }

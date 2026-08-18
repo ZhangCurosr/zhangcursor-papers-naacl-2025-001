@@ -4,5 +4,31 @@
  "title": "SeqAR-Jailbreak-LLMs-with-Sequential-Auto-Generated-Characte",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/567c04e6-2ff2-4ee5-82cc-b7c85da9d4f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/567c04e6-2ff2-4ee5-82cc-b7c85da9d4f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM safety",
+    "jailbreak attack",
+    "red-teaming",
+    "prompt optimization",
+    "sequential character",
+    "black-box attack"
+   ],
+   "field": "大语言模型安全与红队测试",
+   "innovations": [
+    "顺序自生成角色贪心优化框架，无需人工种子模板冷启动",
+    "基于 DeBERTaV3 的句子对判决模型提升评估严格性",
+    "通用越狱模板与请求级长尾编码结合突破强防护模型"
+   ],
+   "benchmarks": [
+    "AdvBench custom",
+    "HarmBench",
+    "JailbreakBench"
+   ]
+  }
+ }
 }

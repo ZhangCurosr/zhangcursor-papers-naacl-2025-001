@@ -4,5 +4,29 @@
  "title": "Style-Transfer-with-Multi-iteration-Preference-Optimization",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9c8c3ba-e360-43ce-965c-fe84eed20d61.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9c8c3ba-e360-43ce-965c-fe84eed20d61.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本风格迁移",
+    "偏好优化",
+    "多迭代训练",
+    "期望-恐惧采样",
+    "动态加权奖励"
+   ],
+   "field": "文本风格迁移",
+   "innovations": [
+    "多迭代对比偏好优化框架（多轮CPO+参考模型更新）",
+    "期望-恐惧采样构造偏好对（同时考虑模型概率与任务奖励两极）",
+    "动态加权奖励聚合防止多目标退化"
+   ],
+   "benchmarks": [
+    "CDS（Corpus of Diverse Styles）",
+    "GYAFC（Grammarly Yahoo Answers Formality Corpus）"
+   ]
+  }
+ }
 }

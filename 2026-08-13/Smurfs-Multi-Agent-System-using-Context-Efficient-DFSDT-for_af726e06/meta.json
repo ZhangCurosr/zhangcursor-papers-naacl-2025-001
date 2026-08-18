@@ -4,5 +4,29 @@
  "title": "Smurfs-Multi-Agent-System-using-Context-Efficient-DFSDT-for",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 14:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/545b290a-8313-41a3-92a3-845d2419d24e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/545b290a-8313-41a3-92a3-845d2419d24e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "工具规划",
+    "深度优先搜索",
+    "上下文效率",
+    "大语言模型"
+   ],
+   "field": "LLM Agent 与工具使用",
+   "innovations": [
+    "将DFSDT分解为多智能体协作架构，通过角色分工解决单智能体决策瓶颈",
+    "基于规则的稳定性回滚机制替代模型驱动回滚，提升弱模型可用性",
+    "上下文高效设计：局部/全局双内存+Answer Agent摘要，降低60.9% token开销"
+   ],
+   "benchmarks": [
+    "StableToolBench",
+    "HotpotQA"
+   ]
+  }
+ }
 }

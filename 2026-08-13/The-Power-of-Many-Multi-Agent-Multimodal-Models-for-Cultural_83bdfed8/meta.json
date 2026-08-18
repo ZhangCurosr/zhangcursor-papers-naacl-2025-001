@@ -4,5 +4,31 @@
  "title": "The-Power-of-Many-Multi-Agent-Multimodal-Models-for-Cultural",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-13 14:57:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b8edbda-928a-477e-a4db-440d81270176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3b8edbda-928a-477e-a4db-440d81270176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体",
+    "多模态大模型",
+    "跨文化理解",
+    "图像描述",
+    "文化对齐",
+    "LLM 提示工程"
+   ],
+   "field": "跨文化多模态理解",
+   "innovations": [
+    "提出 MosAIC 多智能体框架，让不同文化 persona 的 LMM 通过对话协作生成文化增强型图像描述",
+    "改进文化评估指标，提出长度不变的文化词汇计数度量并扩展 14 类文化词表",
+    "证明多智能体交互在零样本设置下可媲美或超越计算密集的微调方案"
+   ],
+   "benchmarks": [
+    "GeoDE",
+    "GD-VCR",
+    "CVQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TUR-K-INGBENCH-A-Challenge-Benchmark-for-Web-Agents",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ede13d8e-b15c-49b1-9ecb-84e1219d565b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ede13d8e-b15c-49b1-9ecb-84e1219d565b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:57:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "web agents",
+    "benchmark",
+    "multimodal",
+    "crowdsourcing",
+    "HTML interaction",
+    "evaluation framework"
+   ],
+   "field": "多模态网页智能体",
+   "innovations": [
+    "提出基于真实众包网页的TURKINGBENCH基准，包含158任务36.2K实例",
+    "设计差异化字段评估指标和relevant HTML局部编码策略",
+    "构建完整Python交互框架并提供开源/闭源多模型基线"
+   ],
+   "benchmarks": [
+    "TURKINGBENCH",
+    "MiniWoB++",
+    "WebShop",
+    "Mind2Web",
+    "WebArena"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Upsample-or-Upweight-Balanced-Training-on-Heavily-Imbalanced",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f93dcd9-afaf-4354-a81c-40dc65836cbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f93dcd9-afaf-4354-a81c-40dc65836cbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言语言建模",
+    "数据不平衡",
+    "温度采样",
+    "Scalarization",
+    "COOLDOWN",
+    "梯度方差",
+    "多任务学习"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "证明全梯度下降下 Scalarization 与 Temperature Sampling 等价，但在 SGD 下温度采样梯度方差更低收敛更快",
+    "提出 COOLDOWN 温度调度策略（高温加速收敛→降温防过拟合），无需代理模型",
+    "系统性验证稀疏温度调度优于细粒度在线重加权"
+   ],
+   "benchmarks": [
+    "OPUS-100 机器翻译子集",
+    "mC4 多语言语言建模子集"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "SymBa-Symbolic-Backward-Chaining-for-Structured-Natural-Lang",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11ea2054-9c71-4171-9dcb-4629b38504c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11ea2054-9c71-4171-9dcb-4629b38504c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:57:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后向链推理",
+    "神经符号推理",
+    "SLD Resolution",
+    "结构化推理",
+    "LLM与逻辑编程",
+    "可解释推理"
+   ],
+   "field": "大语言模型结构化/神经符号推理",
+   "innovations": [
+    "从SLD Resolution完备性视角系统分析LLM后向链方法的算法缺陷（缺回溯/缺绑定传播）",
+    "提出求解器主导+LLM按需调用的协程式后向链系统SymBa，实现完备证明搜索",
+    "模块化单步语句生成机制结合符号验证抑制幻觉"
+   ],
+   "benchmarks": [
+    "ProofWriter",
+    "Birds-Electricity",
+    "ParaRules",
+    "PrOntoQA",
+    "CLUTRR",
+    "MAWPS",
+    "GSM8k"
+   ]
+  }
+ }
 }

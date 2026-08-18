@@ -4,5 +4,31 @@
  "title": "Revealing-the-Barriers-of-Language-Agents-in-Planning",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-13 14:55:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bded5a1-5488-468b-ac94-dfe727e805f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9bded5a1-5488-468b-ac94-dfe727e805f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:56:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Language Agents",
+    "Planning",
+    "Permutation Feature Importance",
+    "Interpretability",
+    "Episodic Memory",
+    "Parametric Memory",
+    "Constraint Reasoning"
+   ],
+   "field": "语言智能体规划能力分析",
+   "innovations": [
+    "首次将置换特征重要性应用于语言智能体规划任务，量化约束与目标的归因贡献",
+    "发现约束引用有限和问题影响力随规划跨度衰减两个根本障碍",
+    "揭示情景记忆与参数记忆更新策略的机制差异及'捷径学习'本质"
+   ],
+   "benchmarks": [
+    "BlocksWorld",
+    "TravelPlanner"
+   ]
+  }
+ }
 }
