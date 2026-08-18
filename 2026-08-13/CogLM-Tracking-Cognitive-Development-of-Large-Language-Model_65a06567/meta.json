@@ -4,5 +4,31 @@
  "title": "CogLM-Tracking-Cognitive-Development-of-Large-Language-Model",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/912f6755-d1d5-4fa5-9191-5fbd1ae0e0e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/912f6755-d1d5-4fa5-9191-5fbd1ae0e0e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:58:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cognitive Development",
+    "LLM Evaluation",
+    "Piaget's Theory",
+    "COGLM Benchmark",
+    "Chain-of-Thought",
+    "Model Alignment"
+   ],
+   "field": "大语言模型能力评估与认知建模",
+   "innovations": [
+    "首次将皮亚杰认知发展理论迁移至LLM评估，构建COGLM基准量化模型认知年龄",
+    "提出校准准确率与认知年龄回归映射函数，建立可比较的模型认知发展阶段标尺",
+    "通过能力擦除干预实验揭示LLM认知能力的层级依赖关系及其与下游任务表现的强相关性"
+   ],
+   "benchmarks": [
+    "COGLM",
+    "GSM8K",
+    "StrategyQA"
+   ]
+  }
+ }
 }

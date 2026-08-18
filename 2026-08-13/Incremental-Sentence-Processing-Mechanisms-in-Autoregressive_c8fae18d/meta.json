@@ -4,5 +4,31 @@
  "title": "Incremental-Sentence-Processing-Mechanisms-in-Autoregressive",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d281d30-bbc6-4879-8b90-6a72df8b4e01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d281d30-bbc6-4879-8b90-6a72df8b4e01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse autoencoder",
+    "causal interpretability",
+    "garden path sentence",
+    "incremental parsing",
+    "feature circuit",
+    "attribution patching"
+   ],
+   "field": "语言模型机制可解释性",
+   "innovations": [
+    "利用SAE与因果归因定位并验证决定花园路径解读偏好的可解释特征",
+    "证明自回归Transformer在歧义阶段并行编码多种句法解读",
+    "揭示模型在消歧后既未修复也未重新分析初始句法预测"
+   ],
+   "benchmarks": [
+    "SAP Benchmark",
+    "BoolQ",
+    "MCQA"
+   ]
+  }
+ }
 }

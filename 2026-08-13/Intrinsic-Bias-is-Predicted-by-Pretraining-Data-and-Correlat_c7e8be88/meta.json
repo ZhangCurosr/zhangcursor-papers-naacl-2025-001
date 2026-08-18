@@ -4,5 +4,32 @@
  "title": "Intrinsic-Bias-is-Predicted-by-Pretraining-Data-and-Correlat",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f173ff97-6505-4614-a5dc-c380e11f29e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f173ff97-6505-4614-a5dc-c380e11f29e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:05:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言模型",
+    "内在偏见",
+    "Embedding Association Test",
+    "预训练数据",
+    "CLIP",
+    "公平性",
+    "零样本性能"
+   ],
+   "field": "多模态AI公平性与可解释性",
+   "innovations": [
+    "提出改进的EAT评估框架，使用经人类验证的刺激材料降低4.8%方差",
+    "首次系统性证明预训练数据集选择是偏见的首要预测因子（β=0.608）而架构影响不显著",
+    "揭示性能优化与偏见放大存在正相关（r最高达0.82），构建偏见-性能联合评估范式"
+   ],
+   "benchmarks": [
+    "VTAB+",
+    "ImageNet",
+    "OpenCLIP"
+   ]
+  }
+ }
 }

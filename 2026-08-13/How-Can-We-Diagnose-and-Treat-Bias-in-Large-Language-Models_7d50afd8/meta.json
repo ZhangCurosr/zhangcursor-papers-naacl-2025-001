@@ -4,5 +4,33 @@
  "title": "How-Can-We-Diagnose-and-Treat-Bias-in-Large-Language-Models",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0688145f-e93b-4a7e-ad8f-43e98bcd4932.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0688145f-e93b-4a7e-ad8f-43e98bcd4932.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:03:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "Clinical Decision-Making",
+    "Bias Evaluation",
+    "Counterfactual Patient Variations",
+    "Fairness in Healthcare AI",
+    "Prompt Engineering",
+    "Fine-tuning Debiasing",
+    "Embedding-based Bias"
+   ],
+   "field": "医疗AI公平性评估",
+   "innovations": [
+    "构建首个面向临床复杂病例的CPV反事实偏见评估框架，融合MCQ准确率与嵌入层解释偏见双轨指标",
+    "揭示结构化MCQ格式会掩盖底层性别偏见，开放式生成暴露更强烈的masculine-leaning倾向",
+    "fine-tuning缓解性别偏见但可能加剧种族偏见，且不同医学专科偏见方向差异显著需分层策略"
+   ],
+   "benchmarks": [
+    "JAMA Clinical Challenge",
+    "CPV_GxE",
+    "CPV_ft_train/test"
+   ]
+  }
+ }
 }

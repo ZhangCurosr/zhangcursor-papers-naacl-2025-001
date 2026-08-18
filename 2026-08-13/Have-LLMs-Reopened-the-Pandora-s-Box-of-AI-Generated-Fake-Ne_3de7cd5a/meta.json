@@ -4,5 +4,10 @@
  "title": "Have-LLMs-Reopened-the-Pandora-s-Box-of-AI-Generated-Fake-Ne",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e63b7dab-5100-47ec-bb3b-20cba7578e5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e63b7dab-5100-47ec-bb3b-20cba7578e5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:03:43",
+  "chunks": 1
+ }
 }

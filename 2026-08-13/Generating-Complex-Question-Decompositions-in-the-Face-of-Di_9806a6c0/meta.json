@@ -4,5 +4,31 @@
  "title": "Generating-Complex-Question-Decompositions-in-the-Face-of-Di",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e2e0f8b-e582-43e2-b508-14117244a8c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e2e0f8b-e582-43e2-b508-14117244a8c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:02:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "问题分解",
+    "合成数据生成",
+    "小语言模型",
+    "LLM-as-judge",
+    "分布偏移",
+    "投票机制"
+   ],
+   "field": "复杂问答与推理",
+   "innovations": [
+    "仅需5个标注样本的CLLM面板合成数据生成方法",
+    "扩展LLM-as-ranker至分解质量排序并结合STV投票",
+    "证明小模型面板+微调可匹敌大模型分解性能"
+   ],
+   "benchmarks": [
+    "break",
+    "musique",
+    "2wikimultihop"
+   ]
+  }
+ }
 }

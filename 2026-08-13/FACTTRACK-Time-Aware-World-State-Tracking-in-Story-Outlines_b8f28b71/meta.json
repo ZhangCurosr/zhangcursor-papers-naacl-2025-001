@@ -4,5 +4,31 @@
  "title": "FACTTRACK-Time-Aware-World-State-Tracking-in-Story-Outlines",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13392a21-33fc-47ba-b33e-394ec564ca7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13392a21-33fc-47ba-b33e-394ec564ca7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fact verification",
+    "world state tracking",
+    "contradiction detection",
+    "story outline",
+    "atomic facts",
+    "temporal reasoning",
+    "large language models"
+   ],
+   "field": "自然语言处理 – 事实核查与状态跟踪",
+   "innovations": [
+    "提出有向原子事实分解与时间有效性区间维护框架",
+    "设计四步管道实现非顺序事件插入的世界状态动态更新",
+    "通过双重 checkpoint 重叠约束严格检测事实矛盾"
+   ],
+   "benchmarks": [
+    "WritingPrompts story outlines",
+    "ContraDoc document-level contradiction dataset"
+   ]
+  }
+ }
 }

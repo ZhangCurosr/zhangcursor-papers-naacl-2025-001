@@ -4,5 +4,34 @@
  "title": "FAMILIARITY-Better-Evaluation-of-Zero-Shot-Named-Entity-Reco",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ceb75c4f-0dba-44f6-84e2-2e1ad62a3fa8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ceb75c4f-0dba-44f6-84e2-2e1ad62a3fa8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Zero-shot NER",
+    "Label Shift",
+    "Evaluation Metric",
+    "Synthetic Data",
+    "FAMILIARITY",
+    "Semantic Similarity"
+   ],
+   "field": "零样本命名实体识别",
+   "innovations": [
+    "提出FAMILIARITY指标量化合成训练数据与评估基准间的标签偏移",
+    "实证揭示实体类型重叠导致零样本F1分数虚高",
+    "基于FAMILIARITY生成低/中/高难度的细粒度评测基准"
+   ],
+   "benchmarks": [
+    "CrossNER",
+    "MIT Movie",
+    "MIT Restaurant",
+    "NuNER",
+    "PileNER",
+    "AskNews"
+   ]
+  }
+ }
 }

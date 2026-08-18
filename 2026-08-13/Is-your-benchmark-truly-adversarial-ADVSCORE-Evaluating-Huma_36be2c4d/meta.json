@@ -4,5 +4,31 @@
  "title": "Is-your-benchmark-truly-adversarial-ADVSCORE-Evaluating-Huma",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f1c18d96-f112-4b8f-aeb1-389567fe9dcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f1c18d96-f112-4b8f-aeb1-389567fe9dcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:05:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial evaluation",
+    "item response theory",
+    "benchmark robustness",
+    "human-AI comparison",
+    "question answering"
+   ],
+   "field": "NLP 评测基准与对抗性评估",
+   "innovations": [
+    "提出 ADVSCORE 指标，首次基于人类能力量化数据集对抗性",
+    "引入歧义惩罚项 δ 过滤模糊题目",
+    "构建 ADVQA 并通过五年追踪揭示现有基准的快速老化"
+   ],
+   "benchmarks": [
+    "ADVQA",
+    "TRICKME",
+    "FM2",
+    "BAMBOOGLE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Embedding-derived-animacy-rankings-offer-insights-into-the-s",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d8a85d1e-0b20-4e93-8682-3ee465118aae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d8a85d1e-0b20-4e93-8682-3ee465118aae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:59:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "animacy",
+    "semantic projection",
+    "word embeddings",
+    "grammatical hierarchy",
+    "egophoricity",
+    "distributional semantics",
+    "language acquisition"
+   ],
+   "field": "认知计算语言学",
+   "innovations": [
+    "首次将语义投影方法系统应用于生命度特征研究",
+    "发现嵌入派生生命度排序与人类感知一致但偏离语法层级，支持语法生命度的先天偏向来源",
+    "证明单向与双向模型在生命度编码上高度一致，且低层更稳定编码抽象语义"
+   ],
+   "benchmarks": [
+    "Brown Corpus",
+    "WordNet",
+    "Radanovic et al. (2016) human ratings",
+    "VanArsdall & Blunt (2022) large-scale ratings"
+   ]
+  }
+ }
 }

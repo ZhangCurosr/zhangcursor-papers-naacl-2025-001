@@ -4,5 +4,34 @@
  "title": "Discourse-Driven-Evaluation-Unveiling-Factual-Inconsistency",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/408fc1e1-f064-4137-824a-51c2dcf14c71.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/408fc1e1-f064-4137-824a-51c2dcf14c71.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:59:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factuality evaluation",
+    "long document summarization",
+    "discourse analysis",
+    "RST parsing",
+    "factual inconsistency detection",
+    "hallucination detection",
+    "NLI-based metrics"
+   ],
+   "field": "自然语言处理中的事实验证与摘要评估",
+   "innovations": [
+    "首次系统性揭示RST话语树结构与长文档摘要事实不一致错误的关联（深度分数、子树高度显著相关）",
+    "提出STRUCTSCORE框架，整合话语感知加权聚合与基于RST树的源文档分段两个创新组件",
+    "在法律领域引入并验证跨领域泛化性（LEGALSUMM数据集，76.57 AUC超越GPT-4o的67.71）"
+   ],
+   "benchmarks": [
+    "AGGREFACT-FTSOTA",
+    "DIVERSUMM",
+    "LONGSCIVERIFY",
+    "LONGEVAL",
+    "LEGALSUMM"
+   ]
+  }
+ }
 }

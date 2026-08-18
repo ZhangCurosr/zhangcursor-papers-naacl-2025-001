@@ -4,5 +4,34 @@
  "title": "Entangled-Relations-Leveraging-NLI-and-Meta-analysis-to-Enha",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a16192bf-347d-4d65-ac28-791dcf65ff0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a16192bf-347d-4d65-ac28-791dcf65ff0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:00:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Relation Extraction",
+    "Natural Language Inference",
+    "Meta-class Analysis",
+    "Biomedical NLP",
+    "Task Adaptation",
+    "NLI-to-RE"
+   ],
+   "field": "信息抽取与关系抽取",
+   "innovations": [
+    "元类分析（MCA）将定义互斥类别对标注为contradict以增强训练信号",
+    "可行假设过滤基于实体类型对自动缩减假设空间",
+    "基于组的预测选择利用softmax置信度解决多entail冲突"
+   ],
+   "benchmarks": [
+    "BioRED",
+    "ReTACRED",
+    "ChemProt",
+    "DDI13",
+    "BC5CDR",
+    "SemEval-2010 Task 8"
+   ]
+  }
+ }
 }

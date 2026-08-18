@@ -4,5 +4,33 @@
  "title": "Entity-Decomposition-with-Filtering-A-Zero-Shot-Clinical-Nam",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/391061c3-dd19-4def-8774-0a91be2ddb4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/391061c3-dd19-4def-8774-0a91be2ddb4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Clinical NER",
+    "Zero-shot",
+    "Entity Decomposition",
+    "Open NER LLM",
+    "Filtering",
+    "Large Language Models"
+   ],
+   "field": "临床自然语言处理/命名实体识别",
+   "innovations": [
+    "提出EDF两阶段零样本框架，通过实体子类型分解+上下文过滤提升临床NER性能",
+    "验证开源NER LLM在无标注条件下借助推理策略可逼近监督方法效果",
+    "揭示负性极性实体与上下文窗口的相互作用机制并提供阈值化过滤的精度-召回权衡方案"
+   ],
+   "benchmarks": [
+    "i2b2 2010",
+    "i2b2 2012",
+    "i2b2 2018 Task 2",
+    "CLEF 2014",
+    "ClinicalIE"
+   ]
+  }
+ }
 }

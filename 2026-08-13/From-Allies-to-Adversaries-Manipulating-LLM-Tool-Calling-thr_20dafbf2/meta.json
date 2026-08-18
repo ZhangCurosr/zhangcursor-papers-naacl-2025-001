@@ -4,5 +4,32 @@
  "title": "From-Allies-to-Adversaries-Manipulating-LLM-Tool-Calling-thr",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7f39944-1a85-4af1-8648-adc390ba9ca3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7f39944-1a85-4af1-8648-adc390ba9ca3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:02:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "工具调用攻击",
+    "对抗注入",
+    "Privacy Theft",
+    "DoS攻击",
+    "RAG安全"
+   ],
+   "field": "大语言模型应用安全",
+   "innovations": [
+    "提出ToolCommander两阶段对抗工具注入框架",
+    "设计PT/DoS/UTC三类针对性攻击方法",
+    "白盒MCG优化与黑盒查询拼接策略"
+   ],
+   "benchmarks": [
+    "ToolBench",
+    "GPT-4o mini",
+    "Llama3-8B-Instruct",
+    "Qwen2-7B-Instruct"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Instantly-Learning-Preference-Alignment-via-In-context-DPO",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a1bc7b0-13df-46f6-9a88-0cfe00bc1ff4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a1bc7b0-13df-46f6-9a88-0cfe00bc1ff4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Preference Alignment",
+    "Tuning-free Methods",
+    "Direct Preference Optimization",
+    "Contrastive Scoring",
+    "LLM Alignment"
+   ],
+   "field": "大语言模型偏好对齐",
+   "innovations": [
+    "逆向DPO推导构建免调优专家-业余者对比评分框架",
+    "提出ICDPO两阶段生成-评分流程实现即时偏好对齐",
+    "设计两阶段检索器R与升级版对比评分器Ŝ增强性能"
+   ],
+   "benchmarks": [
+    "HH-RLHF",
+    "AlpacaEval",
+    "Arena-Hard"
+   ]
+  }
+ }
 }

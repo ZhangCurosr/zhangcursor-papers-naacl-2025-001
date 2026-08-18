@@ -4,5 +4,10 @@
  "title": "Improving-and-Assessing-the-Fidelity-of-Large-Language-Model",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b1baf26-37fa-414b-96fb-45e93b50ebdf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b1baf26-37fa-414b-96fb-45e93b50ebdf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:24",
+  "chunks": 1
+ }
 }

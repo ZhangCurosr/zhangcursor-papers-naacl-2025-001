@@ -4,5 +4,30 @@
  "title": "ALiiCE-Evaluating-Positional-Fine-grained-Citation-Generatio",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76cd4241-426b-4779-8e3a-335ffe3af044.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/76cd4241-426b-4779-8e3a-335ffe3af044.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:58:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "citation generation",
+    "positional fine-grained citation",
+    "evaluation framework",
+    "dependency tree",
+    "NLI",
+    "long-form QA"
+   ],
+   "field": "可解释NLP / 引用生成评估",
+   "innovations": [
+    "提出首个位置细粒度引用生成自动评估框架ALiiCE",
+    "设计基于依存树LCA的原子声明解析算法",
+    "提出CVCP指标量化细粒度引用分布"
+   ],
+   "benchmarks": [
+    "ASQA",
+    "ELI5"
+   ]
+  }
+ }
 }

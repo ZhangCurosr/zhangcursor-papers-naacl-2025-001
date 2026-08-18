@@ -4,5 +4,33 @@
  "title": "FlexiGPT-Pruning-and-Extending-Large-Language-Models-with-Lo",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0ddf2100-c0fc-4352-972b-f90b8e4c9bce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0ddf2100-c0fc-4352-972b-f90b8e4c9bce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM 剪枝",
+    "权重共享",
+    "LoRA",
+    "块级剪枝",
+    "参数高效微调",
+    "模型扩展"
+   ],
+   "field": "大语言模型压缩与部署",
+   "innovations": [
+    "基于低秩 SVD 重构的块相似度度量与权重共享基块选择机制",
+    "输出特征归一化小值初始化配合 SVD 差值 LoRA 初始化实现平滑剪枝恢复"
+   ],
+   "benchmarks": [
+    "ARC-e",
+    "ARC-c",
+    "PIQA",
+    "WinoGrande",
+    "HellaSwag",
+    "MiniPile PPL"
+   ]
+  }
+ }
 }

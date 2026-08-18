@@ -4,5 +4,31 @@
  "title": "Exploring-the-Cost-Effectiveness-of-Perspective-Taking-in-Cr",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f15579b-61c6-4e00-a40f-5d191613fd88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9f15579b-61c6-4e00-a40f-5d191613fd88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:00:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "perspective taking",
+    "crowdsourcing",
+    "subjective annotation",
+    "toxicity detection",
+    "label aggregation",
+    "cost-effectiveness",
+    "bias modeling"
+   ],
+   "field": "众包主观评估与偏差校正",
+   "innovations": [
+    "提出视角采样作为众包主观评估的低成本替代方案，系统揭示其偏差‑方差权衡规律",
+    "设计基于增量EM的混合校准聚合框架，用少量直接标注纠偏外部视角估计",
+    "证实多视角提示可进一步抑制视角采样偏差并提升估计质量"
+   ],
+   "benchmarks": [
+    "Toxicity evaluation on 120 social comments",
+    "Female/male toxicity rate estimation"
+   ]
+  }
+ }
 }

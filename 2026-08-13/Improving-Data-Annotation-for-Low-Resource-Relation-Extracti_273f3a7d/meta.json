@@ -4,5 +4,32 @@
  "title": "Improving-Data-Annotation-for-Low-Resource-Relation-Extracti",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db3ce188-1627-49aa-89ed-178475b7a794.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db3ce188-1627-49aa-89ed-178475b7a794.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源关系抽取",
+    "逻辑规则",
+    "大语言模型",
+    "知识蒸馏",
+    "协作标注",
+    "伪标签"
+   ],
+   "field": "低资源关系抽取",
+   "innovations": [
+    "引入逻辑规则作为可解释任务知识，通过演绎推理提升LLM关系抽取准确性",
+    "提出CLMA迭代协作框架，LLM与SLM互补实现高效高质量伪标注",
+    "设计基于预匹配度的NOTA识别与一致性过滤机制，减少错误累积"
+   ],
+   "benchmarks": [
+    "SemEval 2010",
+    "TACRED",
+    "TACREV",
+    "Re-TACRED"
+   ]
+  }
+ }
 }

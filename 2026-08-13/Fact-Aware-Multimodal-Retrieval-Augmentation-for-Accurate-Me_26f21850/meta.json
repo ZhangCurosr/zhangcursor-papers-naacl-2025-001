@@ -4,5 +4,31 @@
  "title": "Fact-Aware-Multimodal-Retrieval-Augmentation-for-Accurate-Me",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac483fee-d5c5-4808-8657-706841fba33b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ac483fee-d5c5-4808-8657-706841fba33b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态检索增强生成",
+    "医学影像报告生成",
+    "事实准确性",
+    "RadGraph",
+    "胸部X光",
+    "MARVEL",
+    "LLaVA"
+   ],
+   "field": "医学多模态大模型",
+   "innovations": [
+    "基于RadGraph事实报告对挖掘训练医学多模态检索器",
+    "事实相似度阈值控制实现无显式标签监督",
+    "事实感知能力从检索器向生成模型有效传播"
+   ],
+   "benchmarks": [
+    "MIMIC-CXR",
+    "CheXpert"
+   ]
+  }
+ }
 }

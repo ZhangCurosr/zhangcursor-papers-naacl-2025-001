@@ -4,5 +4,33 @@
  "title": "Evaluating-Morphological-Compositional-Generalization-in-Lar",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a1c48d8c-3653-4fdd-aaaf-7e9c8615489f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a1c48d8c-3653-4fdd-aaaf-7e9c8615489f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:00:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "morphological generalization",
+    "compositional generalization",
+    "large language models",
+    "agglutinative languages",
+    "Turkish",
+    "Finnish",
+    "productivity",
+    "systematicity"
+   ],
+   "field": "形态学与组合泛化评估",
+   "innovations": [
+    "设计形态学 productivity 与 systematicity 双任务评测框架",
+    "构建土耳其语/芬兰语大规模 ID-OOD 形态泛化测试套件",
+    "系统揭示 LLM 形态组合泛化与人类的系统性差距及复杂度敏感性问题"
+   ],
+   "benchmarks": [
+    "Bilkent Turkish Writings Dataset (BTWD)",
+    "Finnish mC4",
+    "Wug test (baseline comparison)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "DTELS-Towards-Dynamic-Granularity-of-Timeline-Summarization",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91c7ad7b-05bf-46bb-9a94-dcbcee932365.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91c7ad7b-05bf-46bb-9a94-dcbcee932365.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:58:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间线摘要",
+    "动态粒度",
+    "事件原子",
+    "大语言模型",
+    "文本评估",
+    "多粒度摘要"
+   ],
+   "field": "自然语言生成与摘要",
+   "innovations": [
+    "首次提出动态粒度时间线摘要DTELS任务，以事件省略程度定义粒度并支持任意粒度指令输入",
+    "构建基于事件原子和匈牙利对齐的四维评估框架（信息量/粒度一致性/事实性/连贯性），指标与人工高度一致",
+    "构建首个多粒度中文时间线摘要基准DTELS-Bench（543话题，55,432文章，3级粒度参考）"
+   ],
+   "benchmarks": [
+    "DTELS-Bench"
+   ]
+  }
+ }
 }

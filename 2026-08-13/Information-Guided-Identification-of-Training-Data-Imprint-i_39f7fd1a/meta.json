@@ -4,5 +4,33 @@
  "title": "Information-Guided-Identification-of-Training-Data-Imprint-i",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4985af59-fb28-4a34-bc91-99a611c91fa1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4985af59-fb28-4a34-bc91-99a611c91fa1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "训练数据审计",
+    "memorization检测",
+    "surprisal",
+    "黑盒模型",
+    "数据集污染",
+    "信息引导探针"
+   ],
+   "field": "大模型安全与可解释性",
+   "innovations": [
+    "提出information-guided probes通过高惊奇值token重建检测闭源模型训练数据记忆",
+    "引入rank与probability双度量及知识过滤机制降低误报",
+    "在小说、NYT诉讼、污染检测三场景验证优于prefix probing和TS-SLOT"
+   ],
+   "benchmarks": [
+    "BookMIA",
+    "GPQA",
+    "CommonsenseQA",
+    "ARC-Challenge",
+    "NYT Lawsuit Dataset"
+   ]
+  }
+ }
 }

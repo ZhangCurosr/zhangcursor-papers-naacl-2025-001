@@ -4,5 +4,10 @@
  "title": "Fingerspelling-within-Sign-Language-Translation",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:54:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8c8b7c5-552e-4e93-8aba-6fdc813eb829.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a8c8b7c5-552e-4e93-8aba-6fdc813eb829.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:03:00",
+  "chunks": 4
+ }
 }

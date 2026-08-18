@@ -4,5 +4,35 @@
  "title": "Generating-Long-form-Story-Using-Dynamic-Hierarchical-Outlin",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b9640b9-5311-4fb5-92a8-cf7c0991865d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b9640b9-5311-4fb5-92a8-cf7c0991865d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:02:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长篇小说生成",
+    "动态层次大纲",
+    "时序知识图谱",
+    "记忆增强",
+    "大语言模型",
+    "上下文一致性",
+    "自动评估"
+   ],
+   "field": "长文本生成",
+   "innovations": [
+    "融合小说写作理论的动态层次大纲机制，实现规划与写作阶段的动态适配",
+    "基于时序知识图谱的语义过滤记忆增强模块，有效降低长文本上下文冲突",
+    "利用TKG+LLM的自动时序冲突检测评估方法"
+   ],
+   "benchmarks": [
+    "DOC数据集",
+    "Ent-2",
+    "Conflict Rate (CR.)",
+    "Plot Completeness",
+    "Plot Coherence",
+    "Expression Coherence"
+   ]
+  }
+ }
 }

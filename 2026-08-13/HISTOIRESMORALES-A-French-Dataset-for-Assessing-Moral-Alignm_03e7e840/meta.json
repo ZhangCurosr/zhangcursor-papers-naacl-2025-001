@@ -4,5 +4,33 @@
  "title": "HISTOIRESMORALES-A-French-Dataset-for-Assessing-Moral-Alignm",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fde0c75-abaa-4bdd-8f87-534469ade349.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fde0c75-abaa-4bdd-8f87-534469ade349.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:03:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "moral alignment",
+    "French NLP",
+    "dataset construction",
+    "DPO",
+    "multilingual LLM",
+    "moral reasoning",
+    "machine translation"
+   ],
+   "field": "多语言LLM道德对齐评估",
+   "innovations": [
+    "首个法语道德叙事数据集HISTOIRESMORALES，12,000个故事覆盖规范-行为-后果完整叙事链",
+    "三阶段Prompt+错误解释demonstration翻译管线，COMETKiWi22均分>0.83",
+    "证明LLM道德对齐极脆弱：仅84条样本DPO即可显著改变偏好方向"
+   ],
+   "benchmarks": [
+    "MORALSTORIES",
+    "French CrowS-pairs",
+    "MMLU",
+    "FrenchBench"
+   ]
+  }
+ }
 }

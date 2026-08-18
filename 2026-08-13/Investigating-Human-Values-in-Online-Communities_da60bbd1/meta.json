@@ -4,5 +4,32 @@
  "title": "Investigating-Human-Values-in-Online-Communities",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73dd238e-45af-4d19-8424-efbb7b27540c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73dd238e-45af-4d19-8424-efbb7b27540c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:04:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Schwartz values",
+    "value polarity",
+    "Reddit",
+    "online communities",
+    "computational social science",
+    "DeBERTa",
+    "multi-label classification",
+    "stance detection"
+   ],
+   "field": "计算社会科学与NLP交叉",
+   "innovations": [
+    "双阶段相关性+极性分类框架用于社区级价值观分析",
+    "大规模自动标注12k子reddit九百万帖子的Schwartz十值数据集"
+   ],
+   "benchmarks": [
+    "ValueNet",
+    "ValueArg",
+    "Schwartz & Cieciuch 2022国家问卷"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Extracting-and-Understanding-the-Superficial-Knowledge-in-Al",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72f911be-0803-44e6-a599-2ff21718a1a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72f911be-0803-44e6-a599-2ff21718a1a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型对齐",
+    "浅层知识",
+    "大语言模型",
+    "知识提取",
+    "安全对齐",
+    "跨模型迁移"
+   ],
+   "field": "大语言模型对齐与安全",
+   "innovations": [
+    "形式化浅层知识定义并提出仅修改线性投影层的蒸馏提取方法",
+    "量化证明浅层知识占对齐效果的主体但非全部",
+    "揭示浅层知识可跨模型迁移并用于安全恢复"
+   ],
+   "benchmarks": [
+    "GSM",
+    "Toxigen",
+    "Advbench",
+    "TruthfulQA",
+    "MMLU"
+   ]
+  }
+ }
 }

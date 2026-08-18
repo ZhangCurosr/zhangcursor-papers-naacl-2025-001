@@ -4,5 +4,30 @@
  "title": "Fine-grained-Fallacy-Detection-with-Human-Label-Variation",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16cddf52-4908-4ae0-8d6c-2e5630c4de14.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/16cddf52-4908-4ae0-8d6c-2e5630c4de14.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:01:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fallacy detection",
+    "human label variation",
+    "span-level annotation",
+    "multi-view learning",
+    "Italian social media",
+    "soft evaluation",
+    "zero-shot LLM"
+   ],
+   "field": "错误推理/谬误检测与自然语言处理",
+   "innovations": [
+    "首个支持重叠span标注与人类标签变异的谬误检测数据集FAINA",
+    "面向多重黄金标准与标签层级的评估框架与软评估模式",
+    "多视图多标签/多解码器Transformer架构将标签变异建模为训练信号"
+   ],
+   "benchmarks": [
+    "FAINA"
+   ]
+  }
+ }
 }
