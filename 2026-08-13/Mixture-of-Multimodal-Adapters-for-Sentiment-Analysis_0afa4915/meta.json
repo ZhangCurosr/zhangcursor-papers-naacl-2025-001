@@ -4,5 +4,29 @@
  "title": "Mixture-of-Multimodal-Adapters-for-Sentiment-Analysis",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbeeda9e-5c33-4307-815e-0afe4f888c40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbeeda9e-5c33-4307-815e-0afe4f888c40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感分析",
+    "Mixture of Experts",
+    "参数高效微调",
+    "适配器",
+    "选择性融合"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "将MoE结构扩展为多模态混合专家（MOME），实现选择性多模态特征融合",
+    "设计插件式轻量适配器专家，可训练参数仅为SOTA方法的1/22",
+    "引入模态内负载均衡损失，避免跨模态强制均衡削弱选择能力"
+   ],
+   "benchmarks": [
+    "MOSI",
+    "MOSEI"
+   ]
+  }
+ }
 }

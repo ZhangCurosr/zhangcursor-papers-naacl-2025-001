@@ -4,5 +4,31 @@
  "title": "No-Simple-Answer-to-Data-Complexity-An-Examination-of-Instan",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86f08bf2-0b72-4403-aa58-0e9e56d46e1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86f08bf2-0b72-4403-aa58-0e9e56d46e1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instance-level complexity",
+    "data complexity metrics",
+    "model fairness",
+    "dataset subsampling",
+    "NLP classification",
+    "computational efficiency",
+    "fairness in ML"
+   ],
+   "field": "NLP数据质量与公平性",
+   "innovations": [
+    "训练损失可作为计算密集型复杂度度量的高效代理（与PH/TF/IRT中度相关）",
+    "单一先验特征BD采样可创建多维度高复杂性的训练数据集",
+    "复杂性采样策略对下游人口统计学公平性无系统性负面影响"
+   ],
+   "benchmarks": [
+    "FairPsych NLP dataset",
+    "Clinical Depression Detection dataset"
+   ]
+  }
+ }
 }

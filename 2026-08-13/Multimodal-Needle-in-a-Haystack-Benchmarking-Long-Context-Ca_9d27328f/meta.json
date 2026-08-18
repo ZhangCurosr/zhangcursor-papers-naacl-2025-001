@@ -4,5 +4,29 @@
  "title": "Multimodal-Needle-in-a-Haystack-Benchmarking-Long-Context-Ca",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/154831ae-f1d9-494e-8ef0-5322a5277843.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/154831ae-f1d9-494e-8ef0-5322a5277843.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "长上下文评估",
+    "针在草堆基准",
+    "视觉检索",
+    "幻觉检测",
+    "图像拼接"
+   ],
+   "field": "多模态大模型评估",
+   "innovations": [
+    "提出MMNeedle基准，通过图像拼接和海量正负样本系统性评估MLLM的长视觉上下文检索与抗幻觉能力",
+    "设计存在、索引、精确三层渐进式评估指标，细致分解长上下文视觉理解能力",
+    "揭示GPT-4o等顶级模型在长上下文子图像检索上的领先性及其严重的负样本幻觉问题，同时暴露开源模型与API模型的巨大差距"
+   ],
+   "benchmarks": [
+    "MMNeedle"
+   ]
+  }
+ }
 }

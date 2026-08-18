@@ -4,5 +4,10 @@
  "title": "LLaSA-Large-Language-and-Structured-Data-Assistant",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0aa01397-93ae-49b4-ba39-86ba1f511040.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0aa01397-93ae-49b4-ba39-86ba1f511040.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:27:37",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Mitigating-Hallucinations-in-Multi-modal-Large-Language-Mode",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:11:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/585098cd-a614-4426-b56a-7b2a6339452e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/585098cd-a614-4426-b56a-7b2a6339452e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-modal Large Language Models",
+    "Hallucination Mitigation",
+    "Contrastive Decoding",
+    "Image Token Attention",
+    "Inference-time Intervention"
+   ],
+   "field": "多模态大语言模型幻觉缓解",
+   "innovations": [
+    "提出iTaV（图像token注意力向量）并基于JSD度量层间差异，设计注意力引导的动态层选择策略",
+    "首次从输出token对图像token注意力衰减角度揭示MLLM幻觉机制并用于推理阶段无训练缓解",
+    "提出轻量级即插即用解码框架iTaD，延迟仅增加1.08-1.18倍，在四个MLLM和多个基准上取得SOTA"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "POPE",
+    "GPT-4V Assisted Evaluation",
+    "MME",
+    "VG-100K"
+   ]
+  }
+ }
 }

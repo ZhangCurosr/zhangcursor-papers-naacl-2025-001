@@ -4,5 +4,34 @@
  "title": "LLMs-Are-Biased-Towards-Output-Formats-Systematically-Evalua",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:13:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e5dce24-a9f8-4493-b56f-f8ac6f5949d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6e5dce24-a9f8-4493-b56f-f8ac6f5949d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:27:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "output format bias",
+    "LLM evaluation",
+    "format instruction following",
+    "performance fairness",
+    "systematic bias",
+    "few-shot prompting",
+    "fine-tuning"
+   ],
+   "field": "大语言模型评估与公平性",
+   "innovations": [
+    "提出SysE/TrueE分离的格式偏见评估框架及可靠估计量EstTrueE",
+    "系统评估15种格式、8个任务、4个模型的显著性能偏见",
+    "通过提示与微调（合成格式数据）有效缓解格式偏见"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "BBH",
+    "GSM8K",
+    "HotpotQA",
+    "SciREX"
+   ]
+  }
+ }
 }

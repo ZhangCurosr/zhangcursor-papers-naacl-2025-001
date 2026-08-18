@@ -4,5 +4,32 @@
  "title": "PROMPTREFINE-Enhancing-Few-Shot-Performance-on-Low-Resource",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3e71e9d-473e-4c7e-b8d5-77d9debd2e5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3e71e9d-473e-4c7e-b8d5-77d9debd2e5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Few-shot Example Selection",
+    "Low-resource Languages",
+    "Indic Languages",
+    "Alternating Minimization",
+    "Determinantal Point Process"
+   ],
+   "field": "低资源多语言自然语言生成",
+   "innovations": [
+    "交替最小化框架对齐多语言检索器实现跨语言示例检索",
+    "基于阈值的辅助高资源语言自动筛选机制",
+    "DPP 多样性微调与相关性微调的两阶段检索器训练"
+   ],
+   "benchmarks": [
+    "XorQA-In",
+    "XQuAD-In",
+    "Flores-In",
+    "CrossSum-In"
+   ]
+  }
+ }
 }

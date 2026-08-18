@@ -4,5 +4,30 @@
  "title": "JMMMU-A-Japanese-Massive-Multi-discipline-Multimodal-Underst",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 07:13:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/daa5dd41-454e-4a5d-80b4-e93893f206b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/daa5dd41-454e-4a5d-80b4-e93893f206b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:26:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "日语基准",
+    "文化感知评估",
+    "MMMU",
+    "多语言评测"
+   ],
+   "field": "多模态大模型评估",
+   "innovations": [
+    "提出CA/CS双子集设计以解耦语言能力与文化理解",
+    "构建首个大规模日语专家级多模态基准JMMMU",
+    "揭示GPT-4o与Claude在日语文化理解上的显著差距"
+   ],
+   "benchmarks": [
+    "JMMMU",
+    "MMMU",
+    "CMMMU"
+   ]
+  }
+ }
 }

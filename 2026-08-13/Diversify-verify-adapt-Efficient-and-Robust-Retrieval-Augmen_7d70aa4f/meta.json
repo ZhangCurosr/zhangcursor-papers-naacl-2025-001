@@ -4,5 +4,31 @@
  "title": "Diversify-verify-adapt-Efficient-and-Robust-Retrieval-Augmen",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7f5040a-0353-4848-a7ec-c2596fca7853.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7f5040a-0353-4848-a7ec-c2596fca7853.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:26:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "检索增强生成",
+    "模糊问答",
+    "歧义消解",
+    "大语言模型",
+    "知识检索",
+    "自适应生成"
+   ],
+   "field": "自然语言处理-开放域问答",
+   "innovations": [
+    "提出非迭代的检索多样化模块，通过伪解释推断和多样性检索解决模糊问题检索覆盖不足的问题",
+    "设计针对模糊问题的三级检索质量验证标准和自适应生成策略，根据检索质量动态切换 RAG 和闭卷 LLM",
+    "在保持高效的同时，显著提升了模糊问答的准确性和鲁棒性，优于迭代式 RAG 和现有验证方法"
+   ],
+   "benchmarks": [
+    "ASQA",
+    "SituatedQA",
+    "Natural Questions (NQ)"
+   ]
+  }
+ }
 }

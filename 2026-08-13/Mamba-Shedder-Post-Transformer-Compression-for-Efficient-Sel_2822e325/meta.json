@@ -4,5 +4,36 @@
  "title": "Mamba-Shedder-Post-Transformer-Compression-for-Efficient-Sel",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/302a1815-c54b-494f-acc0-08941665cc15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/302a1815-c54b-494f-acc0-08941665cc15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mamba",
+    "Selective SSM",
+    "Model Pruning",
+    "Structured State Space Model",
+    "Model Compression",
+    "Efficient Inference",
+    "Hybrid Architecture"
+   ],
+   "field": "高效序列建模与模型压缩",
+   "innovations": [
+    "提出首个针对选择性SSM的结构化剪枝框架Mamba-Shedder，支持Mamba块/SSM模块/Transformer子组件的多粒度剪枝",
+    "揭示Mamba-1与Mamba-2在块级剪枝和SSM模块剪枝上的互补敏感性",
+    "设计训练-free剪枝+轻量恢复微调流程，在10-15%剪枝率下实现最高1.4x推理加速"
+   ],
+   "benchmarks": [
+    "Lambada",
+    "HellaSwag",
+    "PIQA",
+    "ARC-e",
+    "ARC-c",
+    "WinoGrande",
+    "OBQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "MIRAGE-BENCH-Automatic-Multilingual-Benchmark-Arena-for-Retr",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:55:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86e8d489-4815-49fd-8d9c-469b63b11da4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/86e8d489-4815-49fd-8d9c-469b63b11da4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "多语言评估",
+    "Arena benchmark",
+    "Surrogate judge",
+    "Learning to rank",
+    "Bradley-Terry"
+   ],
+   "field": "多语言信息检索与生成",
+   "innovations": [
+    "提出MIRAGE-BENCH多语言RAG竞技场基准，覆盖18种语言",
+    "训练随机森林surrogate judge学习Bradley-Terry系数，Kendall Tau达0.909",
+    "构建多语言RAG训练数据集，小模型蒸馏后可超越70B大模型"
+   ],
+   "benchmarks": [
+    "MIRAGE-BENCH",
+    "MIRACL"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "MATO-A-Model-Agnostic-Training-Optimization-for-Aspect-Senti",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e90505f0-5ff5-4ebb-ac01-21014127b9fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e90505f0-5ff5-4ebb-ac01-21014127b9fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ASTE",
+    "变异测试",
+    "情感三元组抽取",
+    "变分关系",
+    "违反率",
+    "多样性感知",
+    "模型无关训练优化",
+    "元测试"
+   ],
+   "field": "细粒度情感分析",
+   "innovations": [
+    "首次将变异测试引入ASTE任务，设计跨三元组与三元组内8条变分关系评估多样性能力",
+    "提出基于违反率的元素级多样性感知损失，通过不确定性加权与ASTE损失联合训练",
+    "构建模型无关的训练优化框架MATO，可无缝适配七种不同范式的SOTA ASTE模型"
+   ],
+   "benchmarks": [
+    "LAP14",
+    "RES14",
+    "RES15",
+    "RES16"
+   ]
+  }
+ }
 }

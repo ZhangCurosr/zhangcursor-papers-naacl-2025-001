@@ -4,5 +4,34 @@
  "title": "Learning-to-Summarize-from-LLM-generated-Feedback",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3403d08f-c706-4995-b588-0c743ddbeebb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3403d08f-c706-4995-b588-0c743ddbeebb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本摘要",
+    "偏好学习",
+    "LLM反馈",
+    "DPO",
+    "RLAIF",
+    "摘要评估"
+   ],
+   "field": "文本摘要与偏好对齐",
+   "innovations": [
+    "首次构建大规模多维度LLM反馈摘要数据集FeedSum（125K三元组，7领域）",
+    "系统揭示反馈质量/维度/粒度对偏好学习的影响规律，证明细粒度反馈关键性",
+    "证明小型模型经多维度细粒度DPO训练可超越10倍参数大模型"
+   ],
+   "benchmarks": [
+    "FeedSum",
+    "UniSumEval",
+    "SynFacEdit",
+    "CNN/DM",
+    "Wikihow",
+    "DialogSum"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Patent-CR-A-Dataset-for-Patent-Claim-Revision",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb961cd4-eac6-48ef-903f-4a8d2a84e8fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/eb961cd4-eac6-48ef-903f-4a8d2a84e8fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:47",
+  "chunks": 1
+ }
 }

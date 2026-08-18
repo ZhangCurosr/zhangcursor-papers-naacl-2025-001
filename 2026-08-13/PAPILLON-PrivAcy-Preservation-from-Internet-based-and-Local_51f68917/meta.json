@@ -4,5 +4,30 @@
  "title": "PAPILLON-PrivAcy-Preservation-from-Internet-based-and-Local",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0a0d2f7-0dea-4baf-85fb-86b8447d852b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0a0d2f7-0dea-4baf-85fb-86b8447d852b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:32:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理时隐私保护",
+    "PII泄露",
+    "本地-云模型协作",
+    "Prompt优化",
+    "隐私基准数据集",
+    "Large Language Models"
+   ],
+   "field": "LLM隐私与安全性",
+   "innovations": [
+    "提出Privacy-Conscious Delegation任务，以本地弱模型代理用户隐私访问云端强模型",
+    "构建PUPA真实场景PII泄露基准数据集，含901条标注样本",
+    "设计PAPILLON双阶段管道并通过DSPy MIPRO v2自动化优化，实现85.5%质量保持率与7.5%低泄露率"
+   ],
+   "benchmarks": [
+    "PUPA",
+    "WildChat"
+   ]
+  }
+ }
 }

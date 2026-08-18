@@ -4,5 +4,37 @@
  "title": "Large-Language-Models-Are-Cross-Lingual-Knowledge-Free-Reaso",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677bf7c6-5326-423c-bb94-11bdcf67ef2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677bf7c6-5326-423c-bb94-11bdcf67ef2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言迁移",
+    "知识无关推理",
+    "大语言模型",
+    "可解释性",
+    "多语言推理",
+    "神经元激活"
+   ],
+   "field": "多语言大语言模型",
+   "innovations": [
+    "将推理任务解构为知识检索和知识无关推理两个组件并量化其对跨语言迁移的不同影响",
+    "构建完全无知识检索需求的KFRD数据集以纯净评估知识无关推理的跨语言迁移",
+    "通过隐藏状态相似性和神经元激活重叠度从计算层面解释知识无关推理跨语言共享机制与知识语言特异性存储"
+   ],
+   "benchmarks": [
+    "KFRD",
+    "StrategyQA",
+    "QASC",
+    "ASDiv",
+    "Coin Flip",
+    "ProofWriter",
+    "MKQA",
+    "BoolQ",
+    "AmbigQA"
+   ]
+  }
+ }
 }

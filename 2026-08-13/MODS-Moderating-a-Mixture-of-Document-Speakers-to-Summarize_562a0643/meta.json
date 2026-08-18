@@ -4,5 +4,30 @@
  "title": "MODS-Moderating-a-Mixture-of-Document-Speakers-to-Summarize",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:54:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa451385-751a-45bf-9058-5fedc73cd915.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa451385-751a-45bf-9058-5fedc73cd915.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "争议性查询摘要",
+    "多LLM系统",
+    "检索增强生成",
+    "观点平衡",
+    "结构化大纲",
+    "多文档摘要"
+   ],
+   "field": "自然语言生成-多文档摘要",
+   "innovations": [
+    "提出DQFS新任务，面向争议性yes/no查询的多文档平衡摘要",
+    "设计MODS多LLM框架，通过Moderator协调Speaker模拟小组讨论并定制检索查询",
+    "引入结构化大纲作为内容规划工具，超越自由文本中间表示"
+   ],
+   "benchmarks": [
+    "ConflictingQA",
+    "DebateQFS"
+   ]
+  }
+ }
 }

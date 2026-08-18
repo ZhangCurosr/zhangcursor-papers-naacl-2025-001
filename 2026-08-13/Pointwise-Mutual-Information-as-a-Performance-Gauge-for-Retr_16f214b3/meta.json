@@ -4,5 +4,30 @@
  "title": "Pointwise-Mutual-Information-as-a-Performance-Gauge-for-Retr",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca863b19-a083-4620-a1af-0f1011424c0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca863b19-a083-4620-a1af-0f1011424c0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:33:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "pointwise mutual information",
+    "prompt optimization",
+    "document reordering",
+    "language model likelihood",
+    "question answering"
+   ],
+   "field": "检索增强生成",
+   "innovations": [
+    "首次证明PMI可作为无需答案知识的RAG性能度量指标",
+    "建立PMI与答案log odds的线性等价关系",
+    "设计两种仅用编码阶段的低开销文档重排算法"
+   ],
+   "benchmarks": [
+    "NQ-Open",
+    "ELI5"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Mitigating-Heterogeneity-among-Factor-Tensors-via-Lie-Group",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91b528b4-6edf-4720-9f57-bca0b318fd8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/91b528b4-6edf-4720-9f57-bca0b318fd8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Temporal Knowledge Graph Embedding",
+    "Tensor Decomposition",
+    "Lie Group Manifold",
+    "Heterogeneity Mitigation",
+    "Link Prediction",
+    "Factor Tensor Alignment"
+   ],
+   "field": "时序知识图谱嵌入",
+   "innovations": [
+    "首次提出将因子张量映射至李群流形以缓解TKGE中实体/关系/时间戳分布异质性",
+    "给出同质张量在低秩下更有效逼近目标的严格理论证明",
+    "零参数增加的即插即用log(f(·))模块可集成至任意张量分解TKGE模型"
+   ],
+   "benchmarks": [
+    "ICEWS14",
+    "ICEWS05-15",
+    "GDELT"
+   ]
+  }
+ }
 }

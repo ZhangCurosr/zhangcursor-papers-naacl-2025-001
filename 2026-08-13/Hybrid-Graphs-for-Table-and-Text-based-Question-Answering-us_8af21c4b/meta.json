@@ -4,5 +4,31 @@
  "title": "Hybrid-Graphs-for-Table-and-Text-based-Question-Answering-us",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:13:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/34dd1d90-6c8a-461a-831e-f2b20a941f10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/34dd1d90-6c8a-461a-831e-f2b20a941f10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:26:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Table-Text QA",
+    "Hybrid Graph",
+    "Zero-shot QA",
+    "Large Language Models",
+    "Multi-hop Reasoning",
+    "Graph Traversal",
+    "Information Extraction"
+   ],
+   "field": "表格-文本混合问答",
+   "innovations": [
+    "构建融合表格与文档的混合图结构实现跨模态信息整合",
+    "基于问题实体的图剪枝与多跳BFS遍历实现精准上下文检索",
+    "零样本Setting下刷新Hybrid-QA和OTT-QA的SOTA并减少45-53% Token消耗"
+   ],
+   "benchmarks": [
+    "Hybrid-QA",
+    "OTT-QA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "From-Redundancy-to-Relevance-Information-Flow-in-LVLMs-Acros",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:12:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e39c089f-538e-40f2-a9f3-6aee0f1d65e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e39c089f-538e-40f2-a9f3-6aee0f1d65e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:26:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LVLM可解释性",
+    "信息流分析",
+    "LLaVA-CAM",
+    "视觉token截断",
+    "注意力分析",
+    "多模态推理"
+   ],
+   "field": "多模态大模型可解释性",
+   "innovations": [
+    "提出注意力分数与LLaVA-CAM结合的双视角信息流分析方法",
+    "发现并验证跨模型浅层收敛深层发散的信息流普遍模式",
+    "定义信息流悬崖层并通过截断实验证实深层视觉token高度冗余"
+   ],
+   "benchmarks": [
+    "ScienceQA",
+    "POPE",
+    "TextVQA",
+    "CHAIR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "On-Behalf-of-the-Stakeholders-Trends-in-NLP-Model-Interpreta",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/31deda87-49ba-44be-b7c1-6231553092b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/31deda87-49ba-44be-b7c1-6231553092b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:31:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NLP可解释性",
+    "LLM",
+    "利益相关者",
+    "机械可解释性",
+    "自然语言解释",
+    "因果推断",
+    "文献计量"
+   ],
+   "field": "NLP模型可解释性",
+   "innovations": [
+    "从利益相关者视角系统分类NLP可解释性方法并提出四视角框架",
+    "首次使用LLM大规模标注2000+篇论文进行跨领域可解释性趋势分析",
+    "提出六维属性分类体系并揭示NLP开发者与非开发者需求差异"
+   ],
+   "benchmarks": [
+    "Semantic Scholar NLP Interpretability Corpus (2015-2024)"
+   ]
+  }
+ }
 }

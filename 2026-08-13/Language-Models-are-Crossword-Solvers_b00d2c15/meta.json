@@ -4,5 +4,10 @@
  "title": "Language-Models-are-Crossword-Solvers",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52526d9b-3d50-406f-9cef-bd09f36db4e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/52526d9b-3d50-406f-9cef-bd09f36db4e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:11",
+  "chunks": 1
+ }
 }

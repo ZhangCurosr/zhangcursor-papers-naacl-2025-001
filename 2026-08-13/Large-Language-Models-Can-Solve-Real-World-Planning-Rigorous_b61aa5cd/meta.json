@@ -4,5 +4,30 @@
  "title": "Large-Language-Models-Can-Solve-Real-World-Planning-Rigorous",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7825d6c1-8ee8-448b-9c7d-fd2870f3c876.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7825d6c1-8ee8-448b-9c7d-fd2870f3c876.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:28:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大语言模型",
+    "约束规划",
+    "SMT求解器",
+    "TravelPlanner",
+    "形式化验证",
+    "交互式修复"
+   ],
+   "field": "LLM规划与形式化方法结合",
+   "innovations": [
+    "LLM将自然语言规划问题翻译为SMT代码并由求解器严格求解",
+    "基于unsat core的交互式计划修复机制",
+    "零样本泛化到新约束和新组合优化任务"
+   ],
+   "benchmarks": [
+    "TravelPlanner",
+    "UnsatChristmas"
+   ]
+  }
+ }
 }

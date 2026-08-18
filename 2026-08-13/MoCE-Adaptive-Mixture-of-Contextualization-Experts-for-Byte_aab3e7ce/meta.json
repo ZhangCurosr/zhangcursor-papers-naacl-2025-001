@@ -4,5 +4,29 @@
  "title": "MoCE-Adaptive-Mixture-of-Contextualization-Experts-for-Byte",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 07:13:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ecf7b0c-601d-4ae3-b987-55d648979a8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ecf7b0c-601d-4ae3-b987-55d648979a8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Machine Translation",
+    "Mixture of Experts",
+    "Byte-level Tokenization",
+    "Multilingual Translation",
+    "Contextualization"
+   ],
+   "field": "多语言神经机器翻译",
+   "innovations": [
+    "提出 MoCE 框架，将局部上下文化函数作为专家并通过 MoE 路由自适应选择尺度",
+    "设计 Ada-MSHA 模块，在 MHA head 级别实现自适应多尺度上下文化",
+    "引入语言 ID 作为路由先验，系统性优化不同语言组的上下文化选择"
+   ],
+   "benchmarks": [
+    "Ted-59",
+    "OPUS-100"
+   ]
+  }
+ }
 }

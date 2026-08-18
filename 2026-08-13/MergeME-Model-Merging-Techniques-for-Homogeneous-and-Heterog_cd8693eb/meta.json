@@ -4,5 +4,34 @@
  "title": "MergeME-Model-Merging-Techniques-for-Homogeneous-and-Heterog",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38246695-1573-42b9-9ec7-709267d01176.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38246695-1573-42b9-9ec7-709267d01176.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Model Merging",
+    "Dare Merging",
+    "Ties Merging",
+    "Heterogeneous Model Fusion",
+    "Routing Heuristics"
+   ],
+   "field": "大语言模型高效训练与融合",
+   "innovations": [
+    "将Dare/Ties先进合并方法首次引入MoE场景缓解参数干扰",
+    "提出无需fine-tuning的perplexity-based序列级路由启发式",
+    "首创基于projector layers的异质架构专家MoE合并框架"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "MBPP",
+    "HumanEval",
+    "Natural Questions",
+    "TriviaQA"
+   ]
+  }
+ }
 }

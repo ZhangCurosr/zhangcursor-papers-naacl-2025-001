@@ -4,5 +4,30 @@
  "title": "MEDA-Dynamic-KV-Cache-Allocation-for-Efficient-Multimodal-Lo",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f20bb0a4-e472-4327-a285-e39301766cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f20bb0a4-e472-4327-a285-e39301766cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache Compression",
+    "Multimodal LLM",
+    "Attention Entropy",
+    "Long-Context Inference",
+    "Dynamic Allocation"
+   ],
+   "field": "多模态推理优化",
+   "innovations": [
+    "跨模态注意力熵驱动的动态分层KV缓存分配",
+    "文本优先的KV对选择与平均合并策略"
+   ],
+   "benchmarks": [
+    "MileBench",
+    "Video-ChatGPT",
+    "DREAM-1K",
+    "WorldQA"
+   ]
+  }
+ }
 }

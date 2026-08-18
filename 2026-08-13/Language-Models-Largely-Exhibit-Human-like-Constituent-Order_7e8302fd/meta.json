@@ -4,5 +4,31 @@
  "title": "Language-Models-Largely-Exhibit-Human-like-Constituent-Order",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5be3ebee-058b-48f4-8435-9775ea358f58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5be3ebee-058b-48f4-8435-9775ea358f58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:27:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constituent movement",
+    "language models",
+    "constituent weight",
+    "heavy NP shift",
+    "psycholinguistics",
+    "model interpretability",
+    "human-model alignment"
+   ],
+   "field": "大语言模型的语言学能力评估",
+   "innovations": [
+    "发现音节重量是预测LLM成分移位偏好的最佳指标，超越token长度",
+    "揭示指令微调模型与人类偏好的对齐度反而低于基础模型",
+    "构建涵盖近40万对最小对立句的首个成分移位综合评测数据集"
+   ],
+   "benchmarks": [
+    "Penn Treebank-2",
+    "Prolific crowdsourced human judgment study"
+   ]
+  }
+ }
 }

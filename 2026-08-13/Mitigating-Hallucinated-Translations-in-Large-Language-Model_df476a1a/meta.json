@@ -4,5 +4,33 @@
  "title": "Mitigating-Hallucinated-Translations-in-Large-Language-Model",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aab5d007-4fdb-4b84-8eb1-ac8be7785f95.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aab5d007-4fdb-4b84-8eb1-ac8be7785f95.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:30:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination mitigation",
+    "preference optimization",
+    "contrastive preference optimization",
+    "machine translation",
+    "LLM translation",
+    "BLASER-QE",
+    "cross-lingual zero-shot"
+   ],
+   "field": "大语言模型机器翻译的幻觉缓解",
+   "innovations": [
+    "幻觉聚焦的无监督偏好数据集构建管线，把后验去幻觉策略离线化为训练数据",
+    "在 CPO 中引入质量差距缩放项，让差异大的偏好对承担更高权重",
+    "混合幻觉偏好与通用质量偏好微调，在保持翻译质量的同时大幅降低幻觉"
+   ],
+   "benchmarks": [
+    "WMT22/WMT23 COMET 系列指标",
+    "BLASER-QE 幻觉率 HR",
+    "top-4-gram 震荡检测独立验证",
+    "NewsCrawl 单语测试集（en→cs/de/is/ru/zh）"
+   ]
+  }
+ }
 }

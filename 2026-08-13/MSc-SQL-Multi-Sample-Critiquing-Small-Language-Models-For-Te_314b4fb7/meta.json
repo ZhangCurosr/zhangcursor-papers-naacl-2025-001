@@ -4,5 +4,30 @@
  "title": "MSc-SQL-Multi-Sample-Critiquing-Small-Language-Models-For-Te",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63b3d208-dff3-4295-8627-1892c4eca527.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63b3d208-dff3-4295-8627-1892c4eca527.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:29:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Small Language Models",
+    "Multi-Sample Critiquing",
+    "Open-source Models",
+    "Execution-based Evaluation",
+    "Test-time Compute"
+   ],
+   "field": "Text-to-SQL / 结构化数据生成",
+   "innovations": [
+    "多样本联合批判模型：同时输入多条候选SQL及其执行结果进行联合推理选择最优候选",
+    "噪声表注入训练：在SQL生成训练中注入无关表以提升模型从冗余schema中筛选能力",
+    "多样化小模型采样策略：从Mistral/Llama/Gemma等不同架构模型各采一个样本，效果优于同模型高温度多次采样"
+   ],
+   "benchmarks": [
+    "BIRD",
+    "Spider 1.0"
+   ]
+  }
+ }
 }
