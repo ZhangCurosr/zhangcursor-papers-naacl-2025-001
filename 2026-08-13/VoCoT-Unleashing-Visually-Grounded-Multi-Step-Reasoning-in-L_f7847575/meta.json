@@ -4,5 +4,33 @@
  "title": "VoCoT-Unleashing-Visually-Grounded-Multi-Step-Reasoning-in-L",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/149ad025-1dcc-46e7-ab4b-05f443c04ea9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/149ad025-1dcc-46e7-ab4b-05f443c04ea9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "思维链推理",
+    "视觉 grounding",
+    "对象中心推理",
+    "幻觉抑制"
+   ],
+   "field": "多模态大模型推理",
+   "innovations": [
+    "提出VoCoT视觉化锚定对象中心推理格式，实现多步跨模态对齐推理",
+    "设计RefBind机制高效获取对象表示，避免Sub-Img冗余信息",
+    "构建VoCoT-Instruct-80K数据集，融合GQA结构化路径与LLM增强数据"
+   ],
+   "benchmarks": [
+    "CLEVR",
+    "Embspatal",
+    "VSR",
+    "GQA",
+    "POPE",
+    "AMBER"
+   ]
+  }
+ }
 }

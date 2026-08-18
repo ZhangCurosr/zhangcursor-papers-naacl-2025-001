@@ -4,5 +4,31 @@
  "title": "World-Models-with-Hints-of-Large-Language-Models-for-Goal-Ac",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-13 14:55:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35507acd-84cb-420d-86a4-7d0eac1b1f67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/35507acd-84cb-420d-86a4-7d0eac1b1f67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model-based reinforcement learning",
+    "intrinsic reward",
+    "large language model",
+    "world model",
+    "goal-conditioned exploration",
+    "sparse reward"
+   ],
+   "field": "强化学习与语言模型交叉",
+   "innovations": [
+    "将LLM生成的自然语言目标嵌入世界模型rollout并通过递减内在奖励引导长视距探索",
+    "基于RND的目标embedding预测误差实现自动奖励衰减避免重复行为",
+    "多prompt策略实现灵活可控的多风格探索引导"
+   ],
+   "benchmarks": [
+    "HomeGrid",
+    "Crafter",
+    "Minecraft Diamond"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "What-the-Disentangling-Hate-Across-Target-Identities",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad54f78f-bf60-428c-ae46-c5354d3842f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad54f78f-bf60-428c-ae46-c5354d3842f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "仇恨言论检测",
+    "公平性分析",
+    "刻板印象",
+    "情绪极性",
+    "功能测试数据集",
+    "身份偏见"
+   ],
+   "field": "仇恨言论检测与模型公平性",
+   "innovations": [
+    "通过最小集实验定量解构目标身份提及带来的系统性偏见",
+    "首次将社会心理学刻板印象内容模型引入HS检测评估，建立温暖-能力语义空间分析框架",
+    "揭示模型混淆仇恨与负面情绪极性的根本缺陷，指出反仇恨言论被误判的风险"
+   ],
+   "benchmarks": [
+    "HATECHECK",
+    "GPT-HATECHECK",
+    "SBIC"
+   ]
+  }
+ }
 }

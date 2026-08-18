@@ -4,5 +4,32 @@
  "title": "When2Call-When-not-to-Call-Tools",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f28271b-6553-4352-a2e3-5e8dcfbd277a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4f28271b-6553-4352-a2e3-5e8dcfbd277a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工具调用",
+    "幻觉抑制",
+    "偏好优化",
+    "大语言模型",
+    "基准测试",
+    "RPO"
+   ],
+   "field": "工具增强型大语言模型",
+   "innovations": [
+    "提出When2Call多分类基准评估模型何时应/不应调用工具",
+    "发现SFT易导致过度保守，提出RPO偏好优化训练平衡调用与不调用决策",
+    "提供工具幻觉/答案幻觉/参数幻觉的显式量化评估方法"
+   ],
+   "benchmarks": [
+    "When2Call",
+    "BFCL v2 Live",
+    "ToolSandbox",
+    "ToolBeHonest"
+   ]
+  }
+ }
 }

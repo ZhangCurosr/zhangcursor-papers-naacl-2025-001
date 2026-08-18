@@ -4,5 +4,31 @@
  "title": "You-Only-Read-Once-YORO-Learning-to-Internalize-Database-Kno",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad70c9a9-e9f0-41af-839a-2f74b2facb00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ad70c9a9-e9f0-41af-839a-2f74b2facb00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:38:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Knowledge Internalization",
+    "Synthetic Data Generation",
+    "Domain Expert Model",
+    "Parameter-Efficient Fine-tuning",
+    "Inference Efficiency"
+   ],
+   "field": "Text-to-SQL与语义解析",
+   "innovations": [
+    "提出YORO范式，将数据库知识内化到专家模型参数中，推理时无需输入模式信息",
+    "通过合成数据生成（骨架提取→SQL生成→NLQ生成）实现零标注知识获取",
+    "领域专家模型设计结合原始训练数据混合微调，解决跨域知识冲突问题"
+   ],
+   "benchmarks": [
+    "Spider Dev",
+    "KaggleDBQA",
+    "BIRD Dev"
+   ]
+  }
+ }
 }

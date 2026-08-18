@@ -4,5 +4,32 @@
  "title": "SAPIENT-Mastering-Multi-turn-Conversational-Recommendation-w",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 14:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61a961e8-6762-48e1-8d68-77bba51057a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61a961e8-6762-48e1-8d68-77bba51057a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Conversational Recommender System",
+    "Multi-turn Recommendation",
+    "Monte Carlo Tree Search",
+    "Reinforcement Learning",
+    "Self-training",
+    "Dialogue Planning"
+   ],
+   "field": "多轮对话推荐系统",
+   "innovations": [
+    "首次将 MCTS 引入多轮对话推荐，以搜索式前瞻规划替代贪心决策",
+    "构建 S-agent 与 S-planner 自训练闭环，用高奖励对话轨迹持续蒸馏策略",
+    "提出 SAPIENT-e，以 listwise ranking loss 利用全部搜索轨迹提升训练效率"
+   ],
+   "benchmarks": [
+    "Yelp",
+    "LastFM",
+    "Amazon-Book",
+    "MovieLens"
+   ]
+  }
+ }
 }

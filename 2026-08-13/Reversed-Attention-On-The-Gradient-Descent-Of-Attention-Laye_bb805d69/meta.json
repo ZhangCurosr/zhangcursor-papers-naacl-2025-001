@@ -4,5 +4,31 @@
  "title": "Reversed-Attention-On-The-Gradient-Descent-Of-Attention-Laye",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/231709ee-62fc-43db-9c79-1e2149f22cf2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/231709ee-62fc-43db-9c79-1e2149f22cf2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reversed Attention",
+    "反向传播可解释性",
+    "注意力层梯度",
+    "Attention Patching",
+    "因果中介",
+    "mechanistic interpretability"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "发现注意力层 softmax 导数隐含构成逆向注意力矩阵，首次系统化分析 GPT 注意力反向传播动力学",
+    "提出 Attention Patching 方法，在不更新权重的前提下将平均 RA 图注入前向传播以编辑模型预测"
+   ],
+   "benchmarks": [
+    "GPT2-xl ICL tasks",
+    "Llama2-7B natural language tasks",
+    "OPT-1.3B",
+    "GPT-j"
+   ]
+  }
+ }
 }

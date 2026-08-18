@@ -4,5 +4,31 @@
  "title": "Unifying-AI-Tutor-Evaluation-An-Evaluation-Taxonomy-for-Peda",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4422bf10-7af6-4675-9012-36027a386bc4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4422bf10-7af6-4675-9012-36027a386bc4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI Tutor Evaluation",
+    "Educational Dialogue",
+    "Large Language Model",
+    "Pedagogical Assessment",
+    "Benchmark",
+    "Mistake Remediation"
+   ],
+   "field": "教育对话系统中的LLM评估",
+   "innovations": [
+    "基于学习科学原则的首个统一八维教学评价分类法",
+    "MRBench基准：192对话1596回复的多模型教学能力评测",
+    "系统验证LLM作为教学评估批评者的不可靠性"
+   ],
+   "benchmarks": [
+    "MRBench",
+    "MathDial",
+    "Bridge"
+   ]
+  }
+ }
 }

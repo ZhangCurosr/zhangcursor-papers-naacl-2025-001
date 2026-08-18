@@ -4,5 +4,32 @@
  "title": "SELFGOAL-Your-Language-Agents-Already-Know-How-to-Achieve-Hi",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/66e73f2e-1e96-4ecb-af5c-ecd37cc8c4f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/66e73f2e-1e96-4ecb-af5c-ecd37cc8c4f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:37:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language agents",
+    "goal decomposition",
+    "LLM planning",
+    "multi-agent games",
+    "adaptive tree structure",
+    "non-parametric learning"
+   ],
+   "field": "多智能体系统中的 LLM 规划",
+   "innovations": [
+    "提出 SELFGOAL 框架，通过 Search-Act-Decompose 三模块动态构建和维护 GOALTREE 实现高层目标的实时分解",
+    "引入余弦相似度阈值和停止机制控制子目标树的粒度与深度，避免过度细化或信息不足",
+    "在非参数学习框架下使小模型也能有效达成延迟反馈的高水平目标"
+   ],
+   "benchmarks": [
+    "GAMA-Bench",
+    "AucArena",
+    "DealOrNotDeal",
+    "ScienceWorld"
+   ]
+  }
+ }
 }
